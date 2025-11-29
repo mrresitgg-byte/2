@@ -918,4 +918,1314 @@ export const additionalQuizzes: Quiz[] = [
       },
     ],
   },
+  {
+    id: "siliconvalley",
+    title: "Silicon Valley'den Hangi Karaktersin?",
+    description: "Startup dünyasının hangi karakterisin?",
+    icon: "Code",
+    emoji: "💻",
+    questions: [
+      {
+        id: "q1",
+        text: "Bir startup kurarken en önemli şey nedir?",
+        options: [
+          { id: "a1", text: "İnovatif ürün ve teknoloji", resultId: "richard" },
+          { id: "a2", text: "Agresif büyüme ve para", resultId: "erlich" },
+          { id: "a3", text: "Sistem mimarisi ve verimlilik", resultId: "gilfoyle" },
+          { id: "a4", text: "Satış ve pazarlama", resultId: "jared" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Bir yatırımcı toplantısında nasıl davranırsın?",
+        options: [
+          { id: "b1", text: "Gergin olurum ama ürünü savunurum", resultId: "richard" },
+          { id: "b2", text: "Kendime aşırı güvenirim ve övünürüm", resultId: "erlich" },
+          { id: "b3", text: "Teknik detaylarla sıkarım", resultId: "gilfoyle" },
+          { id: "b4", text: "Profesyonel ve destekleyici olurum", resultId: "jared" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Kodlama tarzın nasıl?",
+        options: [
+          { id: "c1", text: "Mükemmeliyetçi ve detaycı", resultId: "richard" },
+          { id: "c2", text: "Kod yazmam, vizyon adamıyım", resultId: "erlich" },
+          { id: "c3", text: "Karanlık ve verimli", resultId: "gilfoyle" },
+          { id: "c4", text: "Organize ve dokümante", resultId: "jared" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Ekipte hangi rol senin?",
+        options: [
+          { id: "d1", text: "CEO ve ürün vizyoneri", resultId: "richard" },
+          { id: "d2", text: "Kuluçka merkezi sahibi ve danışman", resultId: "erlich" },
+          { id: "d3", text: "Sistem mimarı ve siber güvenlik", resultId: "gilfoyle" },
+          { id: "d4", text: "COO ve operasyon yöneticisi", resultId: "jared" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "En büyük korkun nedir?",
+        options: [
+          { id: "e1", text: "Başarısız olmak ve ürünü mahvetmek", resultId: "richard" },
+          { id: "e2", text: "Önemsiz olmak ve unutulmak", resultId: "erlich" },
+          { id: "e3", text: "Sistemlerin hack'lenmesi", resultId: "gilfoyle" },
+          { id: "e4", text: "Ekibin dağılması", resultId: "jared" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Silicon Valley'de nerede yaşamak isterdin?",
+        options: [
+          { id: "f1", text: "Mütevazi bir evde, masrafları düşük tutarak", resultId: "richard" },
+          { id: "f2", text: "Kuluçka merkezinde, networking için", resultId: "erlich" },
+          { id: "f3", text: "Karanlık ve sessiz bir yerde", resultId: "gilfoyle" },
+          { id: "f4", text: "Temiz ve organize bir dairede", resultId: "jared" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Bir rakip şirket çıksa ne yaparsın?",
+        options: [
+          { id: "g1", text: "Ürünümü geliştirmeye odaklanırım", resultId: "richard" },
+          { id: "g2", text: "Saldırgan PR ve pazarlama yaparım", resultId: "erlich" },
+          { id: "g3", text: "Onların sistemine sızarım (yasal yollarla)", resultId: "gilfoyle" },
+          { id: "g4", text: "Stratejik ortaklıklar kurarım", resultId: "jared" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "İdeal bir çıkış stratejin ne olurdu?",
+        options: [
+          { id: "h1", text: "Ürünü geliştirmeye devam etmek", resultId: "richard" },
+          { id: "h2", text: "Milyonlarca dolara satmak", resultId: "erlich" },
+          { id: "h3", text: "Bağımsız kalmak ve kontrolü elimde tutmak", resultId: "gilfoyle" },
+          { id: "h4", text: "Ekibin geleceğini güvence altına almak", resultId: "jared" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Teknik bir kriz çıksa ne yaparsın?",
+        options: [
+          { id: "i1", text: "Panik yapar, sonra çözerim", resultId: "richard" },
+          { id: "i2", text: "Suçu başkasına atarım", resultId: "erlich" },
+          { id: "i3", text: "Sakin kalır, sistemleri tamir ederim", resultId: "gilfoyle" },
+          { id: "i4", text: "Ekibi organize eder, çözüm bulurum", resultId: "jared" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Başarıyı nasıl tanımlarsın?",
+        options: [
+          { id: "j1", text: "İnovatif bir ürün yaratmak", resultId: "richard" },
+          { id: "j2", text: "Zengin ve ünlü olmak", resultId: "erlich" },
+          { id: "j3", text: "Teknik mükemmellik", resultId: "gilfoyle" },
+          { id: "j4", text: "Mutlu ve işlevsel bir ekip", resultId: "jared" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "richard",
+        character: "Richard Hendricks",
+        description: "Sen idealist, mükemmeliyetçi ve biraz gerginsin! Harika bir mühendissin ama liderlik seni zorluyor. Ürününe tutkuyla bağlısın ve teknik detayları önemsersin. Bazen karar vermekte zorlansan da, doğru olanı yapmaya çalışırsın.",
+      },
+      {
+        id: "erlich",
+        character: "Erlich Bachman",
+        description: "Sen kendine güvenli, gürültücü ve girişimcisin! Vizyon sahibisin ama bazen gerçekçi değilsin. Kuluçka merkezin ve network'ün önemli. Ego'n büyük ama aslında arkadaşlarını önemsersin. Kendini Silicon Valley'in kralı olarak görüyorsun!",
+      },
+      {
+        id: "gilfoyle",
+        character: "Bertram Gilfoyle",
+        description: "Sen karanlık, zeki ve küstahsın! Sistem mimarisi konusunda dehasın ve bunu biliyorsun. Dinesh ile sürekli dalga geçersin. Satanizm ve verimliliğe inanırsın. Alaycı mizah tarzın ve teknik üstünlüğün seni eşsiz kılıyor.",
+      },
+      {
+        id: "jared",
+        character: "Jared Dunn",
+        description: "Sen sadık, organize ve biraz garipsin! Richard'a adanmışsın ve ekibi bir arada tutuyorsun. Operasyonel konularda harikasın. Karanlık bir geçmişe sahipsin ama pozitif kalmaya çalışıyorsun. Ekibin anne babası sensin!",
+      },
+    ],
+  },
+  {
+    id: "wolfofwallstreet",
+    title: "The Wolf of Wall Street'ten Hangi Karaktersin?",
+    description: "Wall Street'in hangi yıldızısın?",
+    icon: "TrendingUp",
+    emoji: "📈",
+    questions: [
+      {
+        id: "q1",
+        text: "Para senin için ne ifade eder?",
+        options: [
+          { id: "a1", text: "Güç, başarı ve özgürlük", resultId: "jordan" },
+          { id: "a2", text: "Aile ve güvenlik", resultId: "donnie" },
+          { id: "a3", text: "Hukuk ve adalet", resultId: "patrick" },
+          { id: "a4", text: "Lüks ve mutluluk", resultId: "naomi" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Bir satış görüşmesinde nasıl davranırsın?",
+        options: [
+          { id: "b1", text: "Agresif, karizmatikim ve ikna edici", resultId: "jordan" },
+          { id: "b2", text: "Enerjik ve komik", resultId: "donnie" },
+          { id: "b3", text: "Profesyonel ve dürüst", resultId: "patrick" },
+          { id: "b4", text: "Çekici ve manipülatif", resultId: "naomi" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Ahlaki bir ikilemle karşılaşsan ne yaparsın?",
+        options: [
+          { id: "c1", text: "Kazançlı olanı seçerim", resultId: "jordan" },
+          { id: "c2", text: "Arkadaşlarıma sadık kalırım", resultId: "donnie" },
+          { id: "c3", text: "Yasalara uyarım", resultId: "patrick" },
+          { id: "c4", text: "Kendim için en iyisini yaparım", resultId: "naomi" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "En büyük zayıflığın nedir?",
+        options: [
+          { id: "d1", text: "Hırsım ve bağımlılıklarım", resultId: "jordan" },
+          { id: "d2", text: "Aşırı sadakatim", resultId: "donnie" },
+          { id: "d3", text: "Naif olmam", resultId: "patrick" },
+          { id: "d4", text: "Materyalist olmam", resultId: "naomi" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "Bir partide seni nerede buluruz?",
+        options: [
+          { id: "e1", text: "Merkezde, herkesin dikkatini çekiyorum", resultId: "jordan" },
+          { id: "e2", text: "Çılgınca dans ediyorum", resultId: "donnie" },
+          { id: "e3", text: "Köşede, rahatsız görünüyorum", resultId: "patrick" },
+          { id: "e4", text: "Şık ve gösterişli bir şekilde", resultId: "naomi" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Başarının sırrı nedir?",
+        options: [
+          { id: "f1", text: "Karizma ve ikna yeteneği", resultId: "jordan" },
+          { id: "f2", text: "Sadakat ve takım çalışması", resultId: "donnie" },
+          { id: "f3", text: "Dürüstlük ve çalışkanlık", resultId: "patrick" },
+          { id: "f4", text: "Görünüş ve çekicilik", resultId: "naomi" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Yakalanma riski varsa ne yaparsın?",
+        options: [
+          { id: "g1", text: "Her şeyi inkâr ederim", resultId: "jordan" },
+          { id: "g2", text: "Patronumu korumaya çalışırım", resultId: "donnie" },
+          { id: "g3", text: "İşbirliği yaparım", resultId: "patrick" },
+          { id: "g4", text: "Kendi çıkarımı düşünürüm", resultId: "naomi" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "İdeal bir gün nasıl olurdu?",
+        options: [
+          { id: "h1", text: "Milyon dolar kazanmak ve kutlamak", resultId: "jordan" },
+          { id: "h2", text: "Ofiste ekiple eğlenmek", resultId: "donnie" },
+          { id: "h3", text: "Dürüst bir iş günü", resultId: "patrick" },
+          { id: "h4", text: "Alışveriş ve lüks yaşam", resultId: "naomi" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Bağımlılıklar senin için ne ifade eder?",
+        options: [
+          { id: "i1", text: "Hayatımın bir parçası, kontrol edemem", resultId: "jordan" },
+          { id: "i2", text: "Sosyal aktivite", resultId: "donnie" },
+          { id: "i3", text: "Uzak dururum", resultId: "patrick" },
+          { id: "i4", text: "Lüks yaşamın bir parçası", resultId: "naomi" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Her şeyi kaybetsen ne yapardın?",
+        options: [
+          { id: "j1", text: "Yeniden başlar, geri dönerim", resultId: "jordan" },
+          { id: "j2", text: "Arkadaşlarıma güvenirim", resultId: "donnie" },
+          { id: "j3", text: "Dürüst bir işe dönerim", resultId: "patrick" },
+          { id: "j4", text: "Zengin biriyle evlenirim", resultId: "naomi" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "jordan",
+        character: "Jordan Belfort",
+        description: "Sen karizmatik, hırslı ve bağımlılıklarla boğuşuyorsun! Para ve güç senin her şeyindir. Satış yeteneğin efsanevi ve insanları ikna etmekte ustasın. Ahlaki sınırları zorlarsan da, kendine olan inancın seni ayakta tutuyor. Yükselişin ve düşüşün destansı!",
+      },
+      {
+        id: "donnie",
+        character: "Donnie Azoff",
+        description: "Sen sadık, komik ve biraz çılgınsın! Jordan'a körü körüne bağlısın ve her zaman yanında. Enerjin yüksek ve partileri seversin. Bazen aşırıya kaçsan da, iyi niyetlisin. Arkadaşlık senin için çok önemli!",
+      },
+      {
+        id: "patrick",
+        character: "Patrick Denham",
+        description: "Sen dürüst, kararlı ve adaletçisin! FBI ajanı olarak yolsuzlukla savaşıyorsun. Lüks yaşamı reddeder, mütevazi kalırsın. Sabrın ve kararlılığın sonunda galip gelir. İyi adamlardan birisin!",
+      },
+      {
+        id: "naomi",
+        character: "Naomi Lapaglia",
+        description: "Sen güzel, akıllı ve stratejiksin! Lüks yaşamı seversin ama bağımlılıklara tahammülün yok. Güçlü birisin ve ne istediğini biliyorsun. Jordan'la ilişkin karmaşık ama sonunda kendi yolunu çiziyorsun.",
+      },
+    ],
+  },
+  {
+    id: "suits",
+    title: "Suits'ten Hangi Karaktersin?",
+    description: "Hukuk dünyasının hangi yıldızısın?",
+    icon: "Scale",
+    emoji: "💼",
+    questions: [
+      {
+        id: "q1",
+        text: "Bir davayı nasıl kazanırsın?",
+        options: [
+          { id: "a1", text: "Zeka ve hafızamla", resultId: "mike" },
+          { id: "a2", text: "Agresif taktikler ve güç", resultId: "harvey" },
+          { id: "a3", text: "Araştırma ve detaylı çalışma", resultId: "rachel" },
+          { id: "a4", text: "Duygusal zeka ve empati", resultId: "donna" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "En önemli değerin nedir?",
+        options: [
+          { id: "b1", text: "Dürüstlük ve vicdan", resultId: "mike" },
+          { id: "b2", text: "Sadakat ve kazanmak", resultId: "harvey" },
+          { id: "b3", text: "Çalışkanlık ve başarı", resultId: "rachel" },
+          { id: "b4", text: "İlişkiler ve destek", resultId: "donna" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Bir sırrı saklamak zorunda kalsan ne yaparsın?",
+        options: [
+          { id: "c1", text: "Vicdanım rahatsız olur ama saklarım", resultId: "mike" },
+          { id: "c2", text: "Gerekirse ebediyen saklarım", resultId: "harvey" },
+          { id: "c3", text: "Doğruyu söylemeyi tercih ederim", resultId: "rachel" },
+          { id: "c4", text: "Duruma göre karar veririm", resultId: "donna" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Ofiste hangi rolü üstlenirsin?",
+        options: [
+          { id: "d1", text: "Genç ve yetenekli ortak", resultId: "mike" },
+          { id: "d2", text: "En iyi kapanış avukatı", resultId: "harvey" },
+          { id: "d3", text: "Paralegal ama hırslı", resultId: "rachel" },
+          { id: "d4", text: "Her şeyi bilen asistan", resultId: "donna" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "En büyük korkun nedir?",
+        options: [
+          { id: "e1", text: "Yalanımın ortaya çıkması", resultId: "mike" },
+          { id: "e2", text: "Zayıf görünmek", resultId: "harvey" },
+          { id: "e3", text: "Başarısız olmak", resultId: "rachel" },
+          { id: "e4", text: "Önemsiz hissetmek", resultId: "donna" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Bir müvekkil seni hayal kırıklığına uğratsa ne yaparsın?",
+        options: [
+          { id: "f1", text: "Empati kurar, yine de yardım ederim", resultId: "mike" },
+          { id: "f2", text: "Onu terk eder, kendi yoluma devam ederim", resultId: "harvey" },
+          { id: "f3", text: "Profesyonel kalır, işimi yaparım", resultId: "rachel" },
+          { id: "f4", text: "Durumu çözmeye çalışırım", resultId: "donna" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Harvey Specter hakkında ne düşünürsün?",
+        options: [
+          { id: "g1", text: "Mentor ve arkadaşım", resultId: "mike" },
+          { id: "g2", text: "Kendim", resultId: "harvey" },
+          { id: "g3", text: "İlham verici ama zorlayıcı", resultId: "rachel" },
+          { id: "g4", text: "En iyi arkadaşım", resultId: "donna" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "İdeal bir kariyer yolu nasıl olurdu?",
+        options: [
+          { id: "h1", text: "Ortak olmak ama vicdanımı korumak", resultId: "mike" },
+          { id: "h2", text: "En tepede olmak, name partner", resultId: "harvey" },
+          { id: "h3", text: "Kendi firmamı kurmak", resultId: "rachel" },
+          { id: "h4", text: "COO olmak, gerçek gücü elinde tutmak", resultId: "donna" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Aşk ve kariyer arasında seçim yapman gerekse?",
+        options: [
+          { id: "i1", text: "Kararsız kalırım, ikisini de isterim", resultId: "mike" },
+          { id: "i2", text: "Kariyer her zaman önce gelir", resultId: "harvey" },
+          { id: "i3", text: "Dengeyi bulmaya çalışırım", resultId: "rachel" },
+          { id: "i4", text: "Aşk için risk alırım", resultId: "donna" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Pearson Hardman'ı nasıl tanımlarsın?",
+        options: [
+          { id: "j1", text: "Evim ve ailem", resultId: "mike" },
+          { id: "j2", text: "Savaş meydanım", resultId: "harvey" },
+          { id: "j3", text: "Kariyer basamağım", resultId: "rachel" },
+          { id: "j4", text: "Krallığım", resultId: "donna" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "mike",
+        character: "Mike Ross",
+        description: "Sen dahi, duygusal ve vicdanlısın! Fotografik hafızan sayesinde Harvard mezunu olmadan avukatlık yapıyorsun. Bu sır seni sürekli endişelendiriyor. Harvey'e sadıksın ve müvekkillerine gerçekten yardım etmek istiyorsun. İyi bir kalbin var!",
+      },
+      {
+        id: "harvey",
+        character: "Harvey Specter",
+        description: "Sen özgüvenli, agresif ve kazanmaya odaklısın! New York'un en iyi kapanış avukatısın ve bunu biliyorsun. Duygusal olmamaya çalışsan da, yakınlarına sadıksın. 'Winners don't make excuses' felsefenle yaşıyorsun.",
+      },
+      {
+        id: "rachel",
+        character: "Rachel Zane",
+        description: "Sen akıllı, hırslı ve çalışkansın! Paralegal olarak başladın ama avukat olmak istiyorsun. LSAT sınavı seni zorluyor ama pes etmiyorsun. Mike'la olan ilişkin karmaşık. Güçlü bir kadınsın!",
+      },
+      {
+        id: "donna",
+        character: "Donna Paulsen",
+        description: "Sen zeki, duygusal zekalı ve her şeyi biliyorsun! Harvey'in assistanı olarak firmayı sen yönetiyorsun. İlişkilerde ustasın ve herkesin sırrını biliyorsun. COO olmak senin hakkın. 'Donna knows' her zaman doğrudur!",
+      },
+    ],
+  },
+  {
+    id: "succession",
+    title: "Succession'dan Hangi Karaktersin?",
+    description: "Roy ailesinin hangi üyesisin?",
+    icon: "Building2",
+    emoji: "🏢",
+    questions: [
+      {
+        id: "q1",
+        text: "Güç senin için ne ifade eder?",
+        options: [
+          { id: "a1", text: "Babanın onayı ve mirası", resultId: "kendall" },
+          { id: "a2", text: "Özgürlük ve bağımsızlık", resultId: "siobhan" },
+          { id: "a3", text: "Eğlence ve lüks", resultId: "roman" },
+          { id: "a4", text: "Kontrol ve manipülasyon", resultId: "logan" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Bir aile toplantısında nasıl davranırsın?",
+        options: [
+          { id: "b1", text: "Gergin ve savunmacı", resultId: "kendall" },
+          { id: "b2", text: "Stratejik ve hesaplayıcı", resultId: "siobhan" },
+          { id: "b3", text: "Şakacı ve alaycı", resultId: "roman" },
+          { id: "b4", text: "Dominant ve kontrol edici", resultId: "logan" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "En büyük zayıflığın nedir?",
+        options: [
+          { id: "c1", text: "Bağımlılıklarım ve güvensizliğim", resultId: "kendall" },
+          { id: "c2", text: "Duygusal mesafem", resultId: "siobhan" },
+          { id: "c3", text: "Olgunlaşamama", resultId: "roman" },
+          { id: "c4", text: "Yaşlanma ve kontrolü kaybetme", resultId: "logan" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Waystar Royco'da hangi pozisyonu isterdin?",
+        options: [
+          { id: "d1", text: "CEO - Lider ve karar verici", resultId: "kendall" },
+          { id: "d2", text: "Politik danışman - Gölgeden yönetici", resultId: "siobhan" },
+          { id: "d3", text: "COO - Eğlenceli ama güçlü", resultId: "roman" },
+          { id: "d4", text: "Chairman - Mutlak kontrol", resultId: "logan" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "Bir medya krizi çıksa ne yaparsın?",
+        options: [
+          { id: "e1", text: "PR ekibiyle çalışır, kontrolü sağlamaya çalışırım", resultId: "kendall" },
+          { id: "e2", text: "Politik bağlantılarımı kullanırım", resultId: "siobhan" },
+          { id: "e3", text: "Şakaya vurur, ciddiye almam", resultId: "roman" },
+          { id: "e4", text: "Acımasızca bastırırım", resultId: "logan" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Aşk hayatın nasıl?",
+        options: [
+          { id: "f1", text: "Karmaşık ve travmatik", resultId: "kendall" },
+          { id: "f2", text: "Stratejik ve hesaplayıcı", resultId: "siobhan" },
+          { id: "f3", text: "İmkansız ve engellenmiş", resultId: "roman" },
+          { id: "f4", text: "Soğuk ve işlevsel", resultId: "logan" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Kardeşlerinle ilişkin nasıl?",
+        options: [
+          { id: "g1", text: "Rekabetçi ama koruyucu", resultId: "kendall" },
+          { id: "g2", text: "Manipülatif ama sadık", resultId: "siobhan" },
+          { id: "g3", text: "Şakacı ama destekleyici", resultId: "roman" },
+          { id: "g4", text: "Onları birbirine karşı kullanırım", resultId: "logan" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Bir ihanete nasıl tepki verirsin?",
+        options: [
+          { id: "h1", text: "Yıkılırım ama intikam alırım", resultId: "kendall" },
+          { id: "h2", text: "Stratejik hamlelerle karşılık veririm", resultId: "siobhan" },
+          { id: "h3", text: "Espri yapar, içten içe incinirim", resultId: "roman" },
+          { id: "h4", text: "Acımasızca cezalandırırım", resultId: "logan" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Zenginlik seni nasıl etkiliyor?",
+        options: [
+          { id: "i1", text: "Hapishanede hissediyorum", resultId: "kendall" },
+          { id: "i2", text: "Güç sağlıyor", resultId: "siobhan" },
+          { id: "i3", text: "Normal, alışkınım", resultId: "roman" },
+          { id: "i4", text: "Kazandığım her şey", resultId: "logan" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Nihai hedefin nedir?",
+        options: [
+          { id: "j1", text: "Babanın onayını kazanmak", resultId: "kendall" },
+          { id: "j2", text: "Kendi imparatorluğumu kurmak", resultId: "siobhan" },
+          { id: "j3", text: "Özgür ve mutlu olmak", resultId: "roman" },
+          { id: "j4", text: "Ölene kadar kontrol etmek", resultId: "logan" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "kendall",
+        character: "Kendall Roy",
+        description: "Sen hırslı, travmalı ve karmaşıksın! CEO olmak en büyük hayalindir ama bağımlılıkların ve güvensizliğin seni engelliyor. Babanla ilişkin toksik. 'Number one boy' olmak istiyorsun ama bir türlü başaramıyorsun. İçindeki çocuk hala babanın sevgisini arıyor.",
+      },
+      {
+        id: "siobhan",
+        character: "Siobhan 'Shiv' Roy",
+        description: "Sen zeki, manipülatif ve bağımsızsın! Politik danışmanlık yapıyorsun ama aile işine geri çekiliyorsun. Duygusal mesafen güçlü gibi gösteriyor ama aslında onay arıyorsun. Kadın olman seni daha da güçlü yaptı. Tom'la olan ilişkin karmaşık!",
+      },
+      {
+        id: "roman",
+        character: "Roman Roy",
+        description: "Sen şakacı, sarkastik ve olgunlaşamamış birisin! Aileye en mesafeli görünsen de, aslında en kırılgansın. Geraldine ile olan ilişkin travmatik geçmişini gösteriyor. İş konusunda yeteneklisin ama ciddiye alınmakta zorlanıyorsun. İçindeki çocuk hiç büyümedi!",
+      },
+      {
+        id: "logan",
+        character: "Logan Roy",
+        description: "Sen güçlü, acımasız ve kontrol manyağısın! Medya imparatorluğunu sıfırdan kurdun ve kimseye güvenmiyorsun. Çocuklarını seviyorsun ama gösteremiyorsun. Onları test etmeyi ve manipüle etmeyi seversin. Güç senin nefes alman. Zayıflığa tahammülün yok!",
+      },
+    ],
+  },
+  {
+    id: "socialnetwork",
+    title: "The Social Network'ten Hangi Karaktersin?",
+    description: "Facebook'un hangi kurucususun?",
+    icon: "Users",
+    emoji: "🌐",
+    questions: [
+      {
+        id: "q1",
+        text: "Bir sosyal ağ kurarken en önemli şey nedir?",
+        options: [
+          { id: "a1", text: "Yenilikçi kod ve algoritma", resultId: "mark" },
+          { id: "a2", text: "İş geliştirme ve networking", resultId: "eduardo" },
+          { id: "a3", text: "Büyüme ve agresif genişleme", resultId: "sean" },
+          { id: "a4", text: "Fikir ve konsept", resultId: "winklevoss" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Arkadaşlık senin için ne ifade eder?",
+        options: [
+          { id: "b1", text: "İkincil, iş daha önemli", resultId: "mark" },
+          { id: "b2", text: "Her şey, sadakat çok önemli", resultId: "eduardo" },
+          { id: "b3", text: "Stratejik bağlantılar", resultId: "sean" },
+          { id: "b4", text: "Güven ve ortaklık", resultId: "winklevoss" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Bir fikir çalınsa ne yaparsın?",
+        options: [
+          { id: "c1", text: "Daha iyisini yapar, geride bırakırım", resultId: "mark" },
+          { id: "c2", text: "Arkadaşlarıma sadık kalır, hukuki yollara başvururum", resultId: "eduardo" },
+          { id: "c3", text: "Umursamam, büyümeye odaklanırım", resultId: "sean" },
+          { id: "c4", text: "Dava açar, haklarımı savunurum", resultId: "winklevoss" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Harvard'da nasıl birisin?",
+        options: [
+          { id: "d1", text: "Sosyal açıdan beceriksiz ama dahi", resultId: "mark" },
+          { id: "d2", text: "Popüler ve sosyal", resultId: "eduardo" },
+          { id: "d3", text: "Napster kurucu", resultId: "sean" },
+          { id: "d4", text: "Kürekçi ve elit kulüp üyesi", resultId: "winklevoss" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "En büyük motivasyonun nedir?",
+        options: [
+          { id: "e1", text: "Havalı olmak ve kabul edilmek", resultId: "mark" },
+          { id: "e2", text: "Başarı ve arkadaşlarımı mutlu etmek", resultId: "eduardo" },
+          { id: "e3", text: "Bir milyar dolar", resultId: "sean" },
+          { id: "e4", text: "Adalet ve onur", resultId: "winklevoss" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Bir toplantıda nasıl davranırsın?",
+        options: [
+          { id: "f1", text: "Hoodie giyerim, rahat davranırım", resultId: "mark" },
+          { id: "f2", text: "Profesyonel ve hazırlıklı", resultId: "eduardo" },
+          { id: "f3", text: "Karizmatik ve vizyoner", resultId: "sean" },
+          { id: "f4", text: "Kurallara uyarım, ciddi", resultId: "winklevoss" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Hisse diliminde ne yaparsın?",
+        options: [
+          { id: "g1", text: "Kontrolü elimde tutarım", resultId: "mark" },
+          { id: "g2", text: "Adil paylaşırım", resultId: "eduardo" },
+          { id: "g3", text: "Maximuma çıkartırım", resultId: "sean" },
+          { id: "g4", text: "Hukuksal haklarımı savunurum", resultId: "winklevoss" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Erica Albright seni nasıl etkiler?",
+        options: [
+          { id: "h1", text: "Motivasyonumun kaynağı", resultId: "mark" },
+          { id: "h2", text: "Arkadaşımın ex'i, karışmam", resultId: "eduardo" },
+          { id: "h3", text: "Umurumda olmaz", resultId: "sean" },
+          { id: "h4", text: "Kim o?", resultId: "winklevoss" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Bir dava sürecinde nasıl davranırsın?",
+        options: [
+          { id: "i1", text: "Savunmacı ve garip", resultId: "mark" },
+          { id: "i2", text: "İhanete uğramış ve kızgın", resultId: "eduardo" },
+          { id: "i3", text: "Dava? Ne davası?", resultId: "sean" },
+          { id: "i4", text: "Kararlı ve adalet arayan", resultId: "winklevoss" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Facebook'un geleceği nasıl olmalı?",
+        options: [
+          { id: "j1", text: "Havalı olmalı, reklam olmamalı", resultId: "mark" },
+          { id: "j2", text: "Karlı ve sürdürülebilir", resultId: "eduardo" },
+          { id: "j3", text: "Bir milyar kullanıcı", resultId: "sean" },
+          { id: "j4", text: "Dürüst ve adil bir şirket", resultId: "winklevoss" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "mark",
+        character: "Mark Zuckerberg",
+        description: "Sen dahi, sosyal açıdan beceriksiz ve karmaşıksın! Kodlama yeteneğin olağanüstü ama insan ilişkilerin zayıf. Facebook'u Erica'yı etkilemek için kurdun ama asıl amacın havalı olmak ve kabul edilmekti. Arkadaşlarını ihmal ediyorsun ama başarılısın.",
+      },
+      {
+        id: "eduardo",
+        character: "Eduardo Saverin",
+        description: "Sen sadık, iş zekası olan ve ihanete uğramış birisin! Mark'ın en iyi arkadaşı ve CFO'suydum ama hisselerini sulandırdılar. Finansal konularda ustasın. Arkadaşlığa değer veriyorsun ama Mark seni kullandı. Florida'da donmuş banka hesabı travması hala seni etkiliyor!",
+      },
+      {
+        id: "sean",
+        character: "Sean Parker",
+        description: "Sen karizmatik, vizyoner ve risk alanısın! Napster'ı kurdun ve rock star gibi yaşıyorsun. Mark'ı etkileyip Eduardo'yu uzaklaştırdın. 'A million dollars isn't cool, you know what's cool? A billion dollars' senin mantran. Partileri ve büyümeyi seversin!",
+      },
+      {
+        id: "winklevoss",
+        character: "Winklevoss Twins",
+        description: "Sen atletik, elit ve adalet arayan birisin! Harvard Connection fikrini Mark'tan aldığını düşünüyorsun. Kürekçisin ve olimpiyatlara gidiyorsun. Dürüstlük ve onur senin için önemli. Mark'ı dava ettin ama asla tam tatmin olmadın.",
+      },
+    ],
+  },
+  {
+    id: "madmen",
+    title: "Mad Men'den Hangi Karaktersin?",
+    description: "1960'ların reklam dünyasının hangi yıldızısın?",
+    icon: "Cigarette",
+    emoji: "🥃",
+    questions: [
+      {
+        id: "q1",
+        text: "Bir reklam kampanyası yaratırken en önemli şey nedir?",
+        options: [
+          { id: "a1", text: "Duygusal bağlantı ve nostalji", resultId: "don" },
+          { id: "a2", text: "Yaratıcılık ve inovasyon", resultId: "peggy" },
+          { id: "a3", text: "Para ve başarı", resultId: "roger" },
+          { id: "a4", text: "Sanat ve estetik", resultId: "joan" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Ofiste alkol içmeye nasıl bakarsın?",
+        options: [
+          { id: "b1", text: "Gün boyu viski normaldir", resultId: "don" },
+          { id: "b2", text: "Profesyonel olmayı tercih ederim", resultId: "peggy" },
+          { id: "b3", text: "Üç martini lunch esastır", resultId: "roger" },
+          { id: "b4", text: "Sosyal içerim ama kontrollü", resultId: "joan" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Kadınların iş dünyasındaki yeri ne olmalı?",
+        options: [
+          { id: "c1", text: "Geleneksel rolleri desteklerim", resultId: "don" },
+          { id: "c2", text: "Eşit haklar ve fırsatlar", resultId: "peggy" },
+          { id: "c3", text: "Umurumda değil", resultId: "roger" },
+          { id: "c4", text: "Güçlerini kullanarak yükselmeliler", resultId: "joan" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "En büyük sırrın nedir?",
+        options: [
+          { id: "d1", text: "Kimliğim sahte", resultId: "don" },
+          { id: "d2", text: "Hamileliğim", resultId: "peggy" },
+          { id: "d3", text: "Affairlerim", resultId: "roger" },
+          { id: "d4", text: "Mutsuz evliliğim", resultId: "joan" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "Aşk hayatın nasıl?",
+        options: [
+          { id: "e1", text: "Karmaşık ve kaçınılmaz", resultId: "don" },
+          { id: "e2", text: "İş odaklı, aşk ikinci planda", resultId: "peggy" },
+          { id: "e3", text: "Çok sayıda affair", resultId: "roger" },
+          { id: "e4", text: "Stratejik ve hesaplayıcı", resultId: "joan" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Hangi kelime seni tanımlar?",
+        options: [
+          { id: "f1", text: "Gizemli", resultId: "don" },
+          { id: "f2", text: "Hırslı", resultId: "peggy" },
+          { id: "f3", text: "Eğlenceli", resultId: "roger" },
+          { id: "f4", text: "Güçlü", resultId: "joan" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Geçmişin seni nasıl etkiliyor?",
+        options: [
+          { id: "g1", text: "Kaçmaya çalışıyorum ama takip ediyor", resultId: "don" },
+          { id: "g2", text: "Mütevazı geçmişim beni güçlendirdi", resultId: "peggy" },
+          { id: "g3", text: "Zengin bir ailede büyüdüm", resultId: "roger" },
+          { id: "g4", text: "Sekretaryken öğrendiklerimi kullanıyorum", resultId: "joan" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Bir müşteri toplantısında nasıl davranırsın?",
+        options: [
+          { id: "h1", text: "Karizmatik ve ikna edici", resultId: "don" },
+          { id: "h2", text: "Hazırlıklı ve profesyonel", resultId: "peggy" },
+          { id: "h3", text: "Mizahi ve rahat", resultId: "roger" },
+          { id: "h4", text: "Zarif ama otoriter", resultId: "joan" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Madison Avenue seni nasıl tanımlıyor?",
+        options: [
+          { id: "i1", text: "En iyi yaratıcı direktör", resultId: "don" },
+          { id: "i2", text: "Yükselen yıldız", resultId: "peggy" },
+          { id: "i3", text: "Sterling Cooper'ın yüzü", resultId: "roger" },
+          { id: "i4", text: "Ofis yöneticisi ama asıl güç", resultId: "joan" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "1960'ların sonu için vizyonun nedir?",
+        options: [
+          { id: "j1", text: "Her şey değişiyor, uyum sağlamalıyım", resultId: "don" },
+          { id: "j2", text: "Kadınlar için yeni fırsatlar", resultId: "peggy" },
+          { id: "j3", text: "Eski günler daha iyiydi", resultId: "roger" },
+          { id: "j4", text: "Kendi ajansımı kuracağım", resultId: "joan" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "don",
+        character: "Don Draper",
+        description: "Sen karizmatik, gizemli ve karmaşıksın! Gerçek kimliğini saklıyorsun ve Dick Whitman olarak doğdun. Reklam dehası olsan da, kişisel hayatın kaotik. Kadınlardan, alkole, sigaraya kaçıyorsun. Nostalji ve duygusal bağlantı senin silahın. 'It's called a carousel' pitch'in efsanevi!",
+      },
+      {
+        id: "peggy",
+        character: "Peggy Olson",
+        description: "Sen kararlı, yaratıcı ve feminist öncüsüsün! Sekreter olarak başladın ama copywriter oldun. 1960'larda bir kadın olarak yükselmen inanılmaz. Bebeğini evlatlık verdin ve kariyerine odaklandın. Don'ın mentorluğu seni şekillendirdi. 'Basket of kisses' gibi harika fikirler üretiyorsun!",
+      },
+      {
+        id: "roger",
+        character: "Roger Sterling",
+        description: "Sen eğlenceli, zengin ve çapkınsın! Şirket senin aile mirasın. Her şeyi eğlenceye çevirirsin ve üç martini lunch'ın kralısın. Affairler ve evlilikler senin hayatın. LSD deneyimin seni değiştirdi. 'I have an announcement to make: It's going to be a beautiful day!' senin tarzın!",
+      },
+      {
+        id: "joan",
+        character: "Joan Holloway",
+        description: "Sen güçlü, seksi ve zekisin! Ofis yöneticisi olarak gerçek gücü sen elinde tutuyorsun. Görünüşünü silah olarak kullanıyorsun ama aslında iş zekası çok yüksek. Partner olmak için büyük fedakarlıklar yaptın. Kırmızı elbisen ve otoriten duruşun seni efsane yapıyor!",
+      },
+    ],
+  },
+  {
+    id: "thebear",
+    title: "The Bear'dan Hangi Karaktersin?",
+    description: "Mutfağın hangi şefisin?",
+    icon: "ChefHat",
+    emoji: "🍽️",
+    questions: [
+      {
+        id: "q1",
+        text: "Mutfakta en önemli şey nedir?",
+        options: [
+          { id: "a1", text: "Mükemmellik ve Michelin yıldızları", resultId: "carmy" },
+          { id: "a2", text: "Aile ve gelenek", resultId: "richie" },
+          { id: "a3", text: "Yaratıcılık ve tutku", resultId: "sydney" },
+          { id: "a4", text: "Hızlı servis ve verimlilik", resultId: "marcus" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Stresli bir servis sırasında nasıl davranırsın?",
+        options: [
+          { id: "b1", text: "Kontrolcü ve bağırarak", resultId: "carmy" },
+          { id: "b2", text: "Kaotik ama savunmacı", resultId: "richie" },
+          { id: "b3", text: "Sakin ve organize", resultId: "sydney" },
+          { id: "b4", text: "Odaklanır, işime bakarım", resultId: "marcus" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Ağabeyin Mikey'i nasıl hatırlıyorsun?",
+        options: [
+          { id: "c1", text: "Karmaşık duygularla, onun mirası seni eziyor", resultId: "carmy" },
+          { id: "c2", text: "En iyi arkadaşım ve kahramanım", resultId: "richie" },
+          { id: "c3", text: "Tanımadım ama etkisini hissediyorum", resultId: "sydney" },
+          { id: "c4", text: "Saygı duyuyorum ama uzaktayım", resultId: "marcus" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "The Bear'ı nasıl değiştirmek istersin?",
+        options: [
+          { id: "d1", text: "Fine dining'e çevirmek", resultId: "carmy" },
+          { id: "d2", text: "Eski haline geri döndürmek", resultId: "richie" },
+          { id: "d3", text: "Yaratıcı menü ve yenilik", resultId: "sydney" },
+          { id: "d4", text: "Pastry bölümünü güçlendirmek", resultId: "marcus" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "En büyük korkun nedir?",
+        options: [
+          { id: "e1", text: "Başarısız olmak ve ağabeyim gibi olmak", resultId: "carmy" },
+          { id: "e2", text: "Değişim ve alakasız kalmak", resultId: "richie" },
+          { id: "e3", text: "Potansiyelimi gerçekleştirememek", resultId: "sydney" },
+          { id: "e4", text: "Yeterince iyi olmamak", resultId: "marcus" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Bir müşteri şikayet ederse ne yaparsın?",
+        options: [
+          { id: "f1", text: "Kişisel alır, mükemmeli ararım", resultId: "carmy" },
+          { id: "f2", text: "Savunmaya geçer, tartışırım", resultId: "richie" },
+          { id: "f3", text: "Profesyonel çözüm bulurum", resultId: "sydney" },
+          { id: "f4", text: "Yeni bir tatlı yapar, telafi ederim", resultId: "marcus" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Hangi şef seni etkiliyor?",
+        options: [
+          { id: "g1", text: "Michelin yıldızlı şefler", resultId: "carmy" },
+          { id: "g2", text: "Mikey, ağabeyim", resultId: "richie" },
+          { id: "g3", text: "Yenilikçi ve yaratıcı şefler", resultId: "sydney" },
+          { id: "g4", text: "Pastry ustalar", resultId: "marcus" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Mutfak hiyerarşisinde neredesin?",
+        options: [
+          { id: "h1", text: "Head Chef - Her şeyden sorumluyum", resultId: "carmy" },
+          { id: "h2", text: "Dışarısı adamı ama ailenin parçası", resultId: "richie" },
+          { id: "h3", text: "Sous Chef - İkinci komutan", resultId: "sydney" },
+          { id: "h4", text: "Pastry Chef - Uzmanlık alanım var", resultId: "marcus" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Ekip toplantısında nasıl davranırsın?",
+        options: [
+          { id: "i1", text: "Gergin, detaycı ve eleştirel", resultId: "carmy" },
+          { id: "i2", text: "Savunmacı ve gelenekçi", resultId: "richie" },
+          { id: "i3", text: "Yapıcı ve ileriye dönük", resultId: "sydney" },
+          { id: "i4", text: "Sessiz ama not alırım", resultId: "marcus" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Başarı senin için ne ifade eder?",
+        options: [
+          { id: "j1", text: "Michelin yıldızı ve saygınlık", resultId: "carmy" },
+          { id: "j2", text: "Aile işini ayakta tutmak", resultId: "richie" },
+          { id: "j3", text: "Kendi restoranım", resultId: "sydney" },
+          { id: "j4", text: "Mükemmel bir tatlı yaratmak", resultId: "marcus" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "carmy",
+        character: "Carmen 'Carmy' Berzatto",
+        description: "Sen yetenekli, travmalı ve mükemmeliyetçisin! Michelin yıldızlı restoranlardan geldin ama ağabeyin Mikey'in ölümü seni Chicago'ya geri getirdi. The Original Beef of Chicagoland'ı devralıp The Bear'a dönüştürdün. Panik atakların var ve kendini affetmekte zorlanıyorsun. 'Yes, Chef!' senin mantra'n!",
+      },
+      {
+        id: "richie",
+        character: "Richie Jerimovich",
+        description: "Sen sadık, dirençli ama değişime kapalısın! Mikey'in en yakın arkadaşısın ve The Beef senin evindir. Carmen'ın değişikliklerine direniyor ama yavaş yavaş gelişiyorsun. Stagej deneyimin seni dönüştürdü. Ailen dağıldı ama kızın Evie her şeyindir. 'Cousin!' diye bağırmak senin tarzın!",
+      },
+      {
+        id: "sydney",
+        character: "Sydney Adamu",
+        description: "Sen hırslı, yaratıcı ve tutkulusun! Kendi restoranın başarısız oldu ama pes etmedin. Carmy'nin vizyonuna inandın ve Sous Chef oldun. Catering firmasında çalışıyordun ama fine dining hayalin var. Organizasyon ve yaratıcılık senin güçlerin. 'I got it, Chef!' diyerek işini mükemmel yapıyorsun!",
+      },
+      {
+        id: "marcus",
+        character: "Marcus Brooks",
+        description: "Sen yetenekli, alçakgönüllü ve öğrenmeye açıksın! Pastry konusunda tutkulusun ve Kopenhag'da stage yaptın. Annen hastaydı ama yine de rüyalarını takip ettin. Donut recipe'lerini geliştiriyorsun. Sessiz ama kararlısın. Takımın en olgun ve istikrarlı üyesisin!",
+      },
+    ],
+  },
+  {
+    id: "bettercallsaul",
+    title: "Better Call Saul'dan Hangi Karaktersin?",
+    description: "Albuquerque'nin hangi avukatısın?",
+    icon: "Scale",
+    emoji: "⚖️",
+    questions: [
+      {
+        id: "q1",
+        text: "Hukuk pratiğinde en önemli şey nedir?",
+        options: [
+          { id: "a1", text: "Yaratıcılık ve ikna", resultId: "jimmy" },
+          { id: "a2", text: "Ahlak ve integritet", resultId: "chuck" },
+          { id: "a3", text: "Strateji ve kazanmak", resultId: "howard" },
+          { id: "a4", text: "Adalet ve doğruluk", resultId: "kim" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Kardeşinle ilişkin nasıl?",
+        options: [
+          { id: "b1", text: "Karmaşık, onayını arıyorum", resultId: "jimmy" },
+          { id: "b2", text: "Hayal kırıklığı, onu engelliyorum", resultId: "chuck" },
+          { id: "b3", text: "Mesafeli ve profesyonel", resultId: "howard" },
+          { id: "b4", text: "Destekleyici ve koruyucu", resultId: "kim" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Bir müvekkili nasıl savunursun?",
+        options: [
+          { id: "c1", text: "Yaratıcı dolandırıcılıklar ve showmanship", resultId: "jimmy" },
+          { id: "c2", text: "Kusursuz hukuki argümanlar", resultId: "chuck" },
+          { id: "c3", text: "Profesyonel ve stratejik", resultId: "howard" },
+          { id: "c4", text: "Detaylı araştırma ve hazırlık", resultId: "kim" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Slippin' Jimmy kimdir?",
+        options: [
+          { id: "d1", text: "Benim, geçmişim beni takip ediyor", resultId: "jimmy" },
+          { id: "d2", text: "Kardeşimin asıl yüzü, değişmez", resultId: "chuck" },
+          { id: "d3", text: "HHM'in imajına zarar veren biri", resultId: "howard" },
+          { id: "d4", text: "Geçmişi, ama değişebilir", resultId: "kim" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "En büyük korkun nedir?",
+        options: [
+          { id: "e1", text: "Ciddiye alınmamak", resultId: "jimmy" },
+          { id: "e2", text: "Elektromanyetik hassasiyet", resultId: "chuck" },
+          { id: "e3", text: "İtibarımı kaybetmek", resultId: "howard" },
+          { id: "e4", text: "Yanlış seçimler yapmak", resultId: "kim" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Hamlin, Hamlin & McGill'de çalışıyor musun?",
+        options: [
+          { id: "f1", text: "Posta odasında başladım, ortak olamadım", resultId: "jimmy" },
+          { id: "f2", text: "Kurucu ortağım", resultId: "chuck" },
+          { id: "f3", text: "Name partner'ım", resultId: "howard" },
+          { id: "f4", text: "Genç ama yetenekli bir ortağım", resultId: "kim" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Bir hukuki ve ahlaki ikilemle karşılaşsan ne yaparsın?",
+        options: [
+          { id: "g1", text: "Yaratıcı çözümler bulurum, gri bölgede işlem yaparım", resultId: "jimmy" },
+          { id: "g2", text: "Hukuku harfiyen uygularım", resultId: "chuck" },
+          { id: "g3", text: "Firma çıkarlarını düşünürüm", resultId: "howard" },
+          { id: "g4", text: "Vicdanımı dinlerim", resultId: "kim" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Renkli takım elbiselere nasıl bakarsın?",
+        options: [
+          { id: "h1", text: "Saul Goodman'ın markası!", resultId: "jimmy" },
+          { id: "h2", text: "İğrenç ve profesyonel değil", resultId: "chuck" },
+          { id: "h3", text: "Tutucu giyinirim", resultId: "howard" },
+          { id: "h4", text: "Basit ve şık", resultId: "kim" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Mike Ehrmantraut hakkında ne düşünürsün?",
+        options: [
+          { id: "i1", text: "İş ortağım ve arkadaşım", resultId: "jimmy" },
+          { id: "i2", text: "Tanımam", resultId: "chuck" },
+          { id: "i3", text: "Park görevlisi", resultId: "howard" },
+          { id: "i4", text: "Karmaşık ama güvenilir", resultId: "kim" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Saul Goodman'a nasıl dönüşürsün?",
+        options: [
+          { id: "j1", text: "Yavaş yavaş, seçimlerle", resultId: "jimmy" },
+          { id: "j2", text: "O zaten hep öyleydi", resultId: "chuck" },
+          { id: "j3", text: "Trajediler sonucunda", resultId: "howard" },
+          { id: "j4", text: "Benim etkimle gecikti", resultId: "kim" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "jimmy",
+        character: "Jimmy McGill / Saul Goodman",
+        description: "Sen karizmatik, yaratıcı ama kusurlusun! Slippin' Jimmy olarak başladın, avukat olmaya çalıştın ama ağabeyin Chuck seni engelledi. HHM'de ortak olamayınca kendi yolunu çizdin. Yavaş yavaş Saul Goodman'a dönüşüyorsun. Rengarenk takım elbiselerin, 'Better Call Saul!' reklamların ve yaratıcı dolandırıcılıkların senin tarzın!",
+      },
+      {
+        id: "chuck",
+        character: "Chuck McGill",
+        description: "Sen parlak, mükemmeliyetçi ama hastalıklısın! HHM'in kurucu ortağısın ve hukukun harfi senin için kutsal. Elektromanyetik hassasiyet hastalığın gerçek mi yoksa psikolojik mi tartışmalı. Jimmy'ye olan kıskançlığın ve onu engellemen trajik sonuçlara yol açtı. 'The law is sacred!' senin inancın.",
+      },
+      {
+        id: "howard",
+        character: "Howard Hamlin",
+        description: "Sen profesyonel, yakışıklı ama mutsuz birisin! Name partner olarak HHM'i yönetiyorsun. Jimmy Chuck yüzünden seni suçluyor ama aslında sen iyi birisin. Evliliğin sorunlu ve terapiye gidiyorsun. Lalo Salamanca tarafından öldürülmen trajik ve haksız!",
+      },
+      {
+        id: "kim",
+        character: "Kim Wexler",
+        description: "Sen yetenekli, kararlı ve karmaşıksın! Posta odasından avukat oldun. Jimmy'ye aşık oldun ve onun dünyasına çekildin. Ahlaki sınırları zorladın ve Howard'ın ölümünde rolün vardı. Sonunda Jimmy'yi terk edip Nebraska'ya giderek sıradan bir hayat yaşamaya başladın. İçindeki suçluluk seni yok etti.",
+      },
+    ],
+  },
+  {
+    id: "billions",
+    title: "Billions'tan Hangi Karaktersin?",
+    description: "Wall Street'in hangi savaşçısısın?",
+    icon: "DollarSign",
+    emoji: "🤑",
+    questions: [
+      {
+        id: "q1",
+        text: "Güç mü para mı?",
+        options: [
+          { id: "a1", text: "İkisi de, ama önce para", resultId: "bobby" },
+          { id: "a2", text: "Güç, para gelir", resultId: "chuck" },
+          { id: "a3", text: "Para, bağımsızlık sağlar", resultId: "wendy" },
+          { id: "a4", text: "Güç, etki bırakır", resultId: "taylor" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Bir rakibe nasıl saldırırsın?",
+        options: [
+          { id: "b1", text: "Acımasızca ve stratejik", resultId: "bobby" },
+          { id: "b2", text: "Yasal yollarla ve mükemmel", resultId: "chuck" },
+          { id: "b3", text: "Psikolojik manipülasyon", resultId: "wendy" },
+          { id: "b4", text: "Algoritma ve mantık", resultId: "taylor" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "En önemli değerin nedir?",
+        options: [
+          { id: "c1", text: "Sadakat (bana)", resultId: "bobby" },
+          { id: "c2", text: "Adalet ve hukuk", resultId: "chuck" },
+          { id: "c3", text: "Profesyonellik", resultId: "wendy" },
+          { id: "c4", text: "Performans ve sonuç", resultId: "taylor" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Evliliğin nasıl?",
+        options: [
+          { id: "d1", text: "Karmaşık, açık ilişki", resultId: "bobby" },
+          { id: "d2", text: "Karmaşık, BDSM ilişkisi", resultId: "chuck" },
+          { id: "d3", text: "Kariyer odaklı, gergin", resultId: "wendy" },
+          { id: "d4", text: "İlişkilerden kaçınırım", resultId: "taylor" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "Bir insider trading fırsatı olsa ne yaparsın?",
+        options: [
+          { id: "e1", text: "Yasal boşlukları kullanırım", resultId: "bobby" },
+          { id: "e2", text: "Kovuşturma başlatırım", resultId: "chuck" },
+          { id: "e3", text: "Danışmanlık veririm, karar onların", resultId: "wendy" },
+          { id: "e4", text: "Risk-fayda analizi yapar, karar veririm", resultId: "taylor" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Hangi kelime seni tanımlar?",
+        options: [
+          { id: "f1", text: "Acımasız", resultId: "bobby" },
+          { id: "f2", text: "İdealist", resultId: "chuck" },
+          { id: "f3", text: "Manipülatif", resultId: "wendy" },
+          { id: "f4", text: "Analitik", resultId: "taylor" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Bir milyar dolar nasıl harcanır?",
+        options: [
+          { id: "g1", text: "Güç, etki ve lüks", resultId: "bobby" },
+          { id: "g2", text: "Hayır işleri ve kamusal fayda", resultId: "chuck" },
+          { id: "g3", text: "Yatırım ve güvenlik", resultId: "wendy" },
+          { id: "g4", text: "Portföy çeşitlendirme", resultId: "taylor" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Axe Capital'de hangi rolü üstlenirsin?",
+        options: [
+          { id: "h1", text: "Kurucu ve CEO", resultId: "bobby" },
+          { id: "h2", text: "Rakip ve kovuşturucu", resultId: "chuck" },
+          { id: "h3", text: "Performance coach", resultId: "wendy" },
+          { id: "h4", text: "CIO ve partner", resultId: "taylor" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Bir SEC soruşturması başlasa ne yaparsın?",
+        options: [
+          { id: "i1", text: "En iyi avukatları tutar, savaşırım", resultId: "bobby" },
+          { id: "i2", text: "Adaleti sağlarım", resultId: "chuck" },
+          { id: "i3", text: "Strateji geliştiririm", resultId: "wendy" },
+          { id: "i4", text: "Belgeleri analiz eder, savunma yaparım", resultId: "taylor" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Nihai hedefin nedir?",
+        options: [
+          { id: "j1", text: "Kazanmak ve rakiplerimizi ezmek", resultId: "bobby" },
+          { id: "j2", text: "Vali olmak ve adaleti sağlamak", resultId: "chuck" },
+          { id: "j3", text: "Bağımsız ve güçlü olmak", resultId: "wendy" },
+          { id: "j4", text: "Kendi fonumu kurmak", resultId: "taylor" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "bobby",
+        character: "Bobby Axelrod",
+        description: "Sen agresif, stratejik ve acımasızsın! Axe Capital'i sıfırdan kurdun ve milyarder oldun. Chuck Rhoades ile savaşın efsanevi. İçten gelen bir çocuksun ve kimseye güvenmezsin. Lara ile evliliğin açık ilişkiye dönüştü. 'What's the point of having fuck you money if you never say fuck you?' senin felsefendir!",
+      },
+      {
+        id: "chuck",
+        character: "Chuck Rhoades",
+        description: "Sen idealist, hırslı ve karmaşıksın! ABD Savcısısın ve adaleti sağlamaya çalışıyorsun. Bobby Axelrod'u yakalamanın peşindesin. Wendy ile evlilik BDSM ilişkisi ilginç. Baban Charles Rhoades Sr. seni manipüle ediyor. Vali olmak istiyorsun. 'This is not a crime. This is a pardon.' gibi manipülasyonlar yapıyorsun!",
+      },
+      {
+        id: "wendy",
+        character: "Wendy Rhoades",
+        description: "Sen zeki, manipülatif ve güçlüsün! Psikiyatr ve performance coach olarak Axe Capital'de çalışıyorsun. Chuck ile evlisin ama Bobby'ye sadıksın. İki adam arasında kalmak seni yıpratıyor. Sonunda kendi yolunu çiziyorsun. 'I'm a psychiatric dominatrix' senin özgüvenini gösteriyor!",
+      },
+      {
+        id: "taylor",
+        character: "Taylor Mason",
+        description: "Sen analitik, non-binary ve deha birisin! Axe Capital'de stajyer olarak başladın, CIO oldun. Kendi fonunu Mason Capital'i kurdun. Duygulardan ziyade algoritma ve mantıkla hareket ediyorsun. Bobby ile ilişkin mentor-öğrenci'den rakipliğe döndü. Quant trading'in kralsın!",
+      },
+    ],
+  },
+  {
+    id: "thefounder",
+    title: "The Founder'dan Hangi Karaktersin?",
+    description: "McDonald's imparatorluğunun hangi kahramanısın?",
+    icon: "Store",
+    emoji: "🍔",
+    questions: [
+      {
+        id: "q1",
+        text: "Başarı için en önemli şey nedir?",
+        options: [
+          { id: "a1", text: "Sebat ve asla pes etmemek", resultId: "ray" },
+          { id: "a2", text: "Kalite ve inovasyon", resultId: "dick" },
+          { id: "a3", text: "Verimlilik ve sistem", resultId: "mac" },
+          { id: "a4", text: "Destek ve sadakat", resultId: "ethel" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Bir iş ortaklığında en önemli şey nedir?",
+        options: [
+          { id: "b1", text: "Büyüme ve genişleme", resultId: "ray" },
+          { id: "b2", text: "Kalite kontrolü", resultId: "dick" },
+          { id: "b3", text: "Ortak vizyon", resultId: "mac" },
+          { id: "b4", text: "Güven ve dürüstlük", resultId: "ethel" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "McDonald's ismi kime ait olmalı?",
+        options: [
+          { id: "c1", text: "Bana, ben büyüttüm", resultId: "ray" },
+          { id: "c2", text: "McDonald kardeşlere, onlar kurdular", resultId: "dick" },
+          { id: "c3", text: "Herkese eşit", resultId: "mac" },
+          { id: "c4", text: "Kurucularına saygı gösterilmeli", resultId: "ethel" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Bir sözleşme adaletsiz gözükse ne yaparsın?",
+        options: [
+          { id: "d1", text: "Yasal boşlukları kullanır, kurtulur", resultId: "ray" },
+          { id: "d2", text: "Yeniden müzakere ederim", resultId: "dick" },
+          { id: "d3", text: "Sözümde dururum", resultId: "mac" },
+          { id: "d4", text: "Ahlaki olanı yaparım", resultId: "ethel" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "Franchise sistemi nasıl olmalı?",
+        options: [
+          { id: "e1", text: "Agresif genişleme ve emlak", resultId: "ray" },
+          { id: "e2", text: "Kalite kontrolü ve sınırlı", resultId: "dick" },
+          { id: "e3", text: "Sistemli ve standardize", resultId: "mac" },
+          { id: "e4", text: "Adil ve destekleyici", resultId: "ethel" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Milkshake formülü tartışması çıksa ne yaparsın?",
+        options: [
+          { id: "f1", text: "Maliyeti düşürür, karlılığı artırırım", resultId: "ray" },
+          { id: "f2", text: "Kaliteyi korumak için direnirim", resultId: "dick" },
+          { id: "f3", text: "Orta yolu bulurum", resultId: "mac" },
+          { id: "f4", text: "Orijinal fikre saygı gösteririm", resultId: "ethel" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Evliliğin kariyerini engelliyor mu?",
+        options: [
+          { id: "g1", text: "Evet, boşanıp yeni bir başlangıç yaparım", resultId: "ray" },
+          { id: "g2", text: "Hayır, aile önemli", resultId: "dick" },
+          { id: "g3", text: "Denge kurmaya çalışırım", resultId: "mac" },
+          { id: "g4", text: "Sadakat her şeyden önemli", resultId: "ethel" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Bir motivasyon konuşmasında ne dersin?",
+        options: [
+          { id: "h1", text: "Asla pes etmeyin, sebat edin!", resultId: "ray" },
+          { id: "h2", text: "Kalite her zaman kazanır", resultId: "dick" },
+          { id: "h3", text: "Sistem ve verimlilik anahtardır", resultId: "mac" },
+          { id: "h4", text: "Dürüstlük uzun vadede galip gelir", resultId: "ethel" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "San Bernardino'daki ilk McDonald's hakkında ne düşünürsün?",
+        options: [
+          { id: "i1", text: "Bir başlangıç noktası, ben büyüttüm", resultId: "ray" },
+          { id: "i2", text: "Bizim bebeğimiz, gurur duyuyoruz", resultId: "dick" },
+          { id: "i3", text: "İnovatif bir konsept", resultId: "mac" },
+          { id: "i4", text: "Bir rüyanın gerçekleşmesi", resultId: "ethel" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "McDonald's'ın mirası ne olmalı?",
+        options: [
+          { id: "j1", text: "Benim başarı hikayem", resultId: "ray" },
+          { id: "j2", text: "McDonald kardeşlerin inovasyonu", resultId: "dick" },
+          { id: "j3", text: "Speedee Service System'in zaferi", resultId: "mac" },
+          { id: "j4", text: "Bir ailenin çabası", resultId: "ethel" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "ray",
+        character: "Ray Kroc",
+        description: "Sen kararlı, hırslı ve tartışmalısın! 52 yaşında milkshake makinesi satıcısıyken McDonald kardeşleri keşfettin. Franchise haklarını aldın ve küresel bir imparatorluk kurdun. McDonald kardeşlerinden isim haklarını aldın ve kendi hikayeni yazdın. 'Nothing in this world can take the place of persistence' senin mantra'n. Ethel'i boşanıp Joan ile evlendin!",
+      },
+      {
+        id: "dick",
+        character: "Dick McDonald",
+        description: "Sen inovatif, kalite odaklı ve mağdursun! Kardeşin Mac ile birlikte Speedee Service System'i geliştirdin. Ray Kroc'a franchise hakkı verdin ama sonunda her şeyini kaybettin. Kaliteyi korumaya çalıştın ama Ray'in agresif genişlemesi seni geride bıraktı. Orijinal San Bernardino restoranınız bile elinizden alındı!",
+      },
+      {
+        id: "mac",
+        character: "Mac McDonald",
+        description: "Sen sistemli, verimli ve dürüstsün! Dick ile birlikte assembly line prensibini fast food'a uyguladın. Speedee Service System'i geliştirdin. Kalite ve verimlilik senin önceliğindi. Ray Kroc ile anlaşman seni zengin edemedi, sonunda 1%'lik kar payını kaybettin. Handshake deal senin naifliğindi!",
+      },
+      {
+        id: "ethel",
+        character: "Ethel Kroc",
+        description: "Sen sadık, destekleyici ama ihmal edilmişsin! Ray'in ilk karısısın ve onun başarısızken bile yanında oldun. Ama Ray zengin olunca seni terk etti ve Joan Kroc ile evlendi. Fedakarlıkların takdir edilmedi. Ray'in başarısında senin destekleyin büyüktü ama hiç kredi almadın. Üzücü bir hikaye!",
+      },
+    ],
+  },
 ];
