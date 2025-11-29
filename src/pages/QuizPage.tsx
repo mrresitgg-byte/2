@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { quizzes } from "@/data/quizzes";
 import { QuizIntro } from "@/components/quiz/QuizIntro";
 import { QuizQuestion } from "@/components/quiz/QuizQuestion";
@@ -25,6 +26,11 @@ const QuizPage = () => {
   }, [quiz, navigate]);
 
   if (!quiz) return null;
+
+  const pageTitle = `${quiz.title} - Dizi Ruhun`;
+  const pageDescription = `${quiz.description} ${quiz.questions.length} soruluk bu eğlenceli dizi testi ile kendini keşfet!`;
+  const pageUrl = `https://diziruhun.com/quiz/${quiz.id}`;
+  const pageImage = `/dizi-ruhun.png`;
 
   const handleStart = () => {
     setQuizState("questions");
@@ -61,7 +67,24 @@ const QuizPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <Helmet>
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDescription} />
+        <link rel="canonical" href={pageUrl} />
+
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={pageUrl} />
+        <meta property="og:image" content={pageImage} />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDescription} />
+        <meta name="twitter:image" content={pageImage} />
+      </Helmet>
+      <div className="min-h-screen bg-background">
       <header className="border-b border-white/10 sticky top-0 bg-white/10 backdrop-blur-lg z-10 shadow-lg">
         <div className="container mx-auto px-3 sm:px-4 py-3 sm:py-4">
           <div className="flex items-center gap-2 sm:gap-4">
@@ -110,6 +133,7 @@ const QuizPage = () => {
         )}
       </main>
     </div>
+    </>
   );
 };
 

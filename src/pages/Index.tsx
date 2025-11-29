@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { QuizCard } from "@/components/QuizCard";
 import { quizzes } from "@/data/quizzes";
 import { supabase } from "@/lib/supabase";
@@ -8,14 +9,14 @@ import { Search, Send } from "lucide-react";
 import { toast } from "sonner";
 
 const Index = () => {
-  const [searchTerm, setSearchTerm] = useState(""); 
+  const [searchTerm, setSearchTerm] = useState("");
   const [suggestion, setSuggestion] = useState("");
 
   const filteredQuizzes = quizzes.filter(
     (quiz) =>
       quiz.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       quiz.description.toLowerCase().includes(searchTerm.toLowerCase())
-  ); 
+  );
 
 const handleSuggestion = async () => {
     if (suggestion.trim()) {
@@ -23,9 +24,9 @@ const handleSuggestion = async () => {
         const { error } = await supabase
           .from('test_onerileri')
           .insert([{ film_dizi: suggestion.trim() }])
-        
+
         if (error) throw error
-        
+
         toast.success("Öneriniz kaydedildi! Teşekkürler 🎉");
         setSuggestion("");
       } catch (error) {
@@ -36,9 +37,15 @@ const handleSuggestion = async () => {
       toast.error("Lütfen bir öneri yazın");
     }
   };
-  
+
   return (
-    <div className="min-h-screen bg-background">
+    <>
+      <Helmet>
+        <title>Dizi Ruhun - En Popüler Dizi Testleri ve Karakter Analizleri</title>
+        <meta name="description" content="En sevdiğin dizilerden hangi karaktersin? Türkiye'nin en eğlenceli dizi testleri platformunda Friends, Aşk-ı Memnu, Harry Potter testlerini hemen çöz!" />
+        <link rel="canonical" href="https://diziruhun.com" />
+      </Helmet>
+      <div className="min-h-screen bg-background">
       <header className="border-b border-white/10 sticky top-0 bg-white/10 backdrop-blur-lg z-10 shadow-lg">
         <div className="container mx-auto px-3 sm:px-4 py-3 sm:py-5">
           <div className="flex items-center justify-between gap-2">
@@ -132,6 +139,7 @@ const handleSuggestion = async () => {
         </div>
       </footer>
     </div>
+    </>
   );
 };
 
