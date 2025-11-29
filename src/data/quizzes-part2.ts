@@ -2228,4 +2228,1052 @@ export const additionalQuizzes: Quiz[] = [
       },
     ],
   },
+  {
+    id: "askimemnu",
+    title: "Aşk-ı Memnu'dan Hangi Karaktersin?",
+    description: "Yasak aşkın ve tutkunun dünyasında hangi karaktersin?",
+    icon: "Heart",
+    emoji: "💔",
+    questions: [
+      {
+        id: "q1",
+        text: "Aşka nasıl yaklaşırsın?",
+        options: [
+          { id: "a1", text: "Tutkulu ve çılgınca", resultId: "behlul" },
+          { id: "a2", text: "Masum ve içten", resultId: "nihal" },
+          { id: "a3", text: "Fedakar ve sessiz", resultId: "adnan" },
+          { id: "a4", text: "Kontrolcü ve kıskanç", resultId: "firdevs" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Yasak bir aşka kapılsan ne yapardın?",
+        options: [
+          { id: "b1", text: "Riske atar, tutkularıma yenik düşerdim", resultId: "behlul" },
+          { id: "b2", text: "İçimde gizlerdim ama sonunda çözülürdüm", resultId: "nihal" },
+          { id: "b3", text: "Acı çeksem de gururumu korurdum", resultId: "adnan" },
+          { id: "b4", text: "Manipüle eder, durumu kontrol ederim", resultId: "firdevs" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "En büyük korkun nedir?",
+        options: [
+          { id: "c1", text: "Yalnız kalmak", resultId: "behlul" },
+          { id: "c2", text: "Sevdiklerimi hayal kırıklığına uğratmak", resultId: "nihal" },
+          { id: "c3", text: "İhanete uğramak", resultId: "adnan" },
+          { id: "c4", text: "Kontrolü kaybetmek", resultId: "firdevs" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Sosyal statü senin için ne ifade eder?",
+        options: [
+          { id: "d1", text: "Önemli değil, özgürlüğüm daha önemli", resultId: "behlul" },
+          { id: "d2", text: "Yükleyici ve boğucu", resultId: "nihal" },
+          { id: "d3", text: "Kimliğimin bir parçası", resultId: "adnan" },
+          { id: "d4", text: "Her şey, güç ve saygı demek", resultId: "firdevs" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "Yalıda hangi odayı tercih ederdin?",
+        options: [
+          { id: "e1", text: "Haremin - özgür ve gizli", resultId: "behlul" },
+          { id: "e2", text: "Kendi odam - masum ve korunaklı", resultId: "nihal" },
+          { id: "e3", text: "Kütüphane - sakin ve düzenli", resultId: "adnan" },
+          { id: "e4", text: "Salon - herkesin görebileceği yer", resultId: "firdevs" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "İhanet eden birine nasıl davranırsın?",
+        options: [
+          { id: "f1", text: "Önce öfkelenir sonra pişman olurum", resultId: "behlul" },
+          { id: "f2", text: "Sessizce ağlar, içime atarım", resultId: "nihal" },
+          { id: "f3", text: "Onurlu bir şekilde uzaklaşırım", resultId: "adnan" },
+          { id: "f4", text: "İntikam alırım", resultId: "firdevs" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Piyano çalmayı biliyor musun?",
+        options: [
+          { id: "g1", text: "Hayır, müzik dinlemeyi tercih ederim", resultId: "behlul" },
+          { id: "g2", text: "Evet, tutkuyla çalarım", resultId: "nihal" },
+          { id: "g3", text: "Dinleyerek keyif alırım", resultId: "adnan" },
+          { id: "g4", text: "Sanat yeteneğim var ama göstermem", resultId: "firdevs" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Bir sırrı nasıl saklarsın?",
+        options: [
+          { id: "h1", text: "Zorlanırım, sonunda açığa çıkar", resultId: "behlul" },
+          { id: "h2", text: "Yıllar boyu sessizce taşırım", resultId: "nihal" },
+          { id: "h3", text: "Gururumla saklarım", resultId: "adnan" },
+          { id: "h4", text: "Silah olarak kullanırım", resultId: "firdevs" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Aşk mı, onur mu?",
+        options: [
+          { id: "i1", text: "Aşk, ama bedeli ağır", resultId: "behlul" },
+          { id: "i2", text: "Aşk, her şeye rağmen", resultId: "nihal" },
+          { id: "i3", text: "Onur, sonsuza kadar", resultId: "adnan" },
+          { id: "i4", text: "İkisi de benim araçlarım", resultId: "firdevs" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Boğaz'a bakarak ne düşünürsün?",
+        options: [
+          { id: "j1", text: "Özgürlük ve kaçış", resultId: "behlul" },
+          { id: "j2", text: "Hüzün ve özlem", resultId: "nihal" },
+          { id: "j3", text: "Güzellik ve huzur", resultId: "adnan" },
+          { id: "j4", text: "Güç ve statü", resultId: "firdevs" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "behlul",
+        character: "Behlül Haznedar",
+        description: "Sen tutkulu, çekici ama kararsızsın! Paris'te büyüdün, özgürsün ama bağlanmaktan korkuyorsun. Nihal'e aşık oldun ama amcana karşı vicdan azabı çekiyorsun. Kadınlarla ilişkilerin karmaşık, bazen kaçış yolu arıyorsun. İçindeki çatışma seni yıkıyor. Bülbül seninle konuşuyor!",
+      },
+      {
+        id: "nihal",
+        character: "Nihal Ziyagil",
+        description: "Sen masum, tutkulu ama trajiksin! Genç yaşta Adnan Bey ile evlendin. Behlül'e aşık oldun ve yasak bir aşk yaşadın. Piyano çalarak duygularını ifade ediyorsun. İçindeki çatışma ve vicdan azabı seni yıkıyor. Sonunda her şeyi kaybediyorsun. Matmazel Kalfo senin öğretmenin!",
+      },
+      {
+        id: "adnan",
+        character: "Adnan Ziyagil",
+        description: "Sen onurlu, asil ama trajiksin! Nihal'e çok aşıksın ama ihanetin farkına varınca dünyası yıkılıyor. Behlül'e baba gibisin ama seni aldatıyor. Gururunu koruyarak uzaklaşıyorsun. Sosyal statün önemli ama mutluluğunu sağlamıyor. Melih Bey senin dostun!",
+      },
+      {
+        id: "firdevs",
+        character: "Firdevs Hanım",
+        description: "Sen manipülatif, kontrolcü ama annesin! Nihal'in annesi olarak onu kontrol etmeye çalışıyorsun. Sosyal statü ve görünüş senin her şeyin. İhanetleri gördün ama durumu kendi lehine çevirmeye çalışıyorsun. Kızını korumak istersin ama yöntemlerin tartışmalı. Yalı'nın kraliçesisin!",
+      },
+    ],
+  },
+  {
+    id: "ezel",
+    title: "Ezel'den Hangi Karaktersin?",
+    description: "İntikam ve adalet arayışında hangi karaktersin?",
+    icon: "Shield",
+    emoji: "🔫",
+    questions: [
+      {
+        id: "q1",
+        text: "İhanete uğrasan ne yapardın?",
+        options: [
+          { id: "a1", text: "Yıllarca plan yapar, intikam alırım", resultId: "ezel" },
+          { id: "a2", text: "Güç kullanır, hemen karşılık veririm", resultId: "ramiz" },
+          { id: "a3", text: "Pişman olur, affederim", resultId: "ali" },
+          { id: "a4", text: "Sevgiyle kazanmaya çalışırım", resultId: "eysan" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "En büyük gücün nedir?",
+        options: [
+          { id: "b1", text: "Zekam ve stratejim", resultId: "ezel" },
+          { id: "b2", text: "Para ve nüfuzum", resultId: "ramiz" },
+          { id: "b3", text: "Sadakatim ve arkadaşlığım", resultId: "ali" },
+          { id: "b4", text: "Sevgim ve merhametim", resultId: "eysan" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Kimliğini değiştirebilir misin?",
+        options: [
+          { id: "c1", text: "Evet, intikam için her şeyi yaparım", resultId: "ezel" },
+          { id: "c2", text: "Kimliğim gücümün kaynağı", resultId: "ramiz" },
+          { id: "c3", text: "Hayır, ben benim", resultId: "ali" },
+          { id: "c4", text: "İnsanlar değişebilir", resultId: "eysan" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Sevgilinle düşmanın arasında kalsan?",
+        options: [
+          { id: "d1", text: "İntikamı seçer, sonra pişman olurum", resultId: "ezel" },
+          { id: "d2", text: "Güçlü olanı seçerim", resultId: "ramiz" },
+          { id: "d3", text: "Doğru olanı yaparım", resultId: "ali" },
+          { id: "d4", text: "Sevgiyi seçerim", resultId: "eysan" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "İstanbul'da nerede yaşardın?",
+        options: [
+          { id: "e1", text: "Lüks bir yalıda, gizli kimlikle", resultId: "ezel" },
+          { id: "e2", text: "Gösterişli bir konakta", resultId: "ramiz" },
+          { id: "e3", text: "Mütevazi bir mahalle evinde", resultId: "ali" },
+          { id: "e4", text: "Huzurlu bir yerde", resultId: "eysan" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Poker oynamasını biliyor musun?",
+        options: [
+          { id: "f1", text: "Evet, master'ım", resultId: "ezel" },
+          { id: "f2", text: "Kumar benim işim", resultId: "ramiz" },
+          { id: "f3", text: "Hayır, kumar oynamam", resultId: "ali" },
+          { id: "f4", text: "Hayır, riskli buluyorum", resultId: "eysan" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "En büyük pişmanlığın ne olurdu?",
+        options: [
+          { id: "g1", text: "Yanlış insanlara güvenmek", resultId: "ezel" },
+          { id: "g2", text: "Zayıf anlarımda hata yapmak", resultId: "ramiz" },
+          { id: "g3", text: "Arkadaşlarıma ihanet etmek", resultId: "ali" },
+          { id: "g4", text: "Sevdiğimi kaybetmek", resultId: "eysan" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Hapiste olsan ne yapardın?",
+        options: [
+          { id: "h1", text: "Güçlenip plan yaparım", resultId: "ezel" },
+          { id: "h2", text: "Dışarıdan kontrol ederim", resultId: "ramiz" },
+          { id: "h3", text: "Cezamı çeker, pişman olurum", resultId: "ali" },
+          { id: "h4", text: "Sevdiğim için beklerim", resultId: "eysan" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Affetmek mi, intikam mı?",
+        options: [
+          { id: "i1", text: "İntikam, ama sonunda affederim", resultId: "ezel" },
+          { id: "i2", text: "İntikam, sonsuza kadar", resultId: "ramiz" },
+          { id: "i3", text: "Affetmek, herkes hata yapar", resultId: "ali" },
+          { id: "i4", text: "Affetmek, aşk her şeyi affeder", resultId: "eysan" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Hangi söz seni tanımlar?",
+        options: [
+          { id: "j1", text: "İntikam soğuk yenen bir yemektir", resultId: "ezel" },
+          { id: "j2", text: "Güç her şeydir", resultId: "ramiz" },
+          { id: "j3", text: "Dostluk her şeyden önemlidir", resultId: "ali" },
+          { id: "j4", text: "Aşk her şeyi affeder", resultId: "eysan" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "ezel",
+        character: "Ezel Bayraktar (Ömer Uçar)",
+        description: "Sen zeki, stratejik ve kararlısın! En yakın arkadaşların Cengiz ve Ali seni ihanet etti, Eyşan'ı kaybettin ve haksız yere hapse girdin. Ramiz Dayı'nın yardımıyla Ezel olarak döndün. Poker ustası oldun ve intikam planı yaptın. Ama içindeki iyi insan hala yaşıyor. Tevfik Abi senin mentorun!",
+      },
+      {
+        id: "ramiz",
+        character: "Ramiz Karaeski (Dayı)",
+        description: "Sen güçlü, kontrollü ama karmaşıksın! İstanbul'un en güçlü mafya liderisin. Ömer'i hapiste buldun ve Ezel yaptın. Poker ve kumar senin işin. Gücü ve kontrolü seversin. Bahar'a aşıksın ama onu kaybettin. Ali'yi evlat edindin. Kenan Birkan seninle çalışıyor!",
+      },
+      {
+        id: "ali",
+        character: "Ali Kırca",
+        description: "Sen sadık, pişman ama trajiksin! Ömer'in en yakın arkadaşıydın ama Cengiz'le birlikte ona ihanet ettin. Suçluluk duygusu seni yıkıyor. Ramiz Dayı'nın yanında çalışıyorsun ama geçmişin seni boğuyor. Mert'in babası olarak yeni bir hayat kurdun. İçindeki vicdan savaşıyor!",
+      },
+      {
+        id: "eysan",
+        character: "Eyşan Atay (Bahar)",
+        description: "Sen güzel, sadık ama trajiksin! Ömer'i çok sevdin ama Cengiz seni aldattı. Ömer'in hapse girmesine sebep oldun ama aslında masumun. Şimdi Bahar olarak yaşıyorsun ve hafızan geri geldi. Ezel'e aşıksın ama geçmiş çok karmaşık. Cansu kızınız!",
+      },
+    ],
+  },
+  {
+    id: "kurtlarvadisi",
+    title: "Kurtlar Vadisi'nden Hangi Karaktersin?",
+    description: "Derin devlet ve mafya dünyasında hangi karaktersin?",
+    icon: "Target",
+    emoji: "🐺",
+    questions: [
+      {
+        id: "q1",
+        text: "Vatanı nasıl korursun?",
+        options: [
+          { id: "a1", text: "Derin görevlerle, gizlice", resultId: "polat" },
+          { id: "a2", text: "Askeri disiplin ve güçle", resultId: "memati" },
+          { id: "a3", text: "Strateji ve diplomasi ile", resultId: "aslan" },
+          { id: "a4", text: "Kendi çıkarlarımla bağdaştırarak", resultId: "cakir" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "En büyük düşmanın kim?",
+        options: [
+          { id: "b1", text: "Vatan hainleri", resultId: "polat" },
+          { id: "b2", text: "Düzen bozucular", resultId: "memati" },
+          { id: "b3", text: "Uluslararası güç odakları", resultId: "aslan" },
+          { id: "b4", text: "Rekabetteki herkes", resultId: "cakir" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Bir görevde nasıl davranırsın?",
+        options: [
+          { id: "c1", text: "Sonuna kadar giderim", resultId: "polat" },
+          { id: "c2", text: "Askeri disiplinle hareket ederim", resultId: "memati" },
+          { id: "c3", text: "Stratejik düşünürüm", resultId: "aslan" },
+          { id: "c4", text: "Kendi çıkarıma göre karar veririm", resultId: "cakir" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Kimliğini gizleyebilir misin?",
+        options: [
+          { id: "d1", text: "Evet, görev gerektirir", resultId: "polat" },
+          { id: "d2", text: "Gereksiz, kimliğim güçtür", resultId: "memati" },
+          { id: "d3", text: "Evet, strateji gereği", resultId: "aslan" },
+          { id: "d4", text: "Duruma göre", resultId: "cakir" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "Para senin için ne ifade eder?",
+        options: [
+          { id: "e1", text: "Araç, amaç değil", resultId: "polat" },
+          { id: "e2", text: "Maaşım yeterli", resultId: "memati" },
+          { id: "e3", text: "Güç ve etki için gerekli", resultId: "aslan" },
+          { id: "e4", text: "Her şey", resultId: "cakir" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Dostluğun sınırları nerede?",
+        options: [
+          { id: "f1", text: "Vatan için her şeyi feda ederim", resultId: "polat" },
+          { id: "f2", text: "Kardeşliğim sonsuzdur", resultId: "memati" },
+          { id: "f3", text: "Stratejik ittifaklar önemli", resultId: "aslan" },
+          { id: "f4", text: "Dostluk çıkar ilişkisidir", resultId: "cakir" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Silah kullanmasını biliyor musun?",
+        options: [
+          { id: "g1", text: "Evet, profesyonelim", resultId: "polat" },
+          { id: "g2", text: "Askeri eğitimle donatıldım", resultId: "memati" },
+          { id: "g3", text: "Gerektiğinde kullanırım", resultId: "aslan" },
+          { id: "g4", text: "Adamlarım kullanır", resultId: "cakir" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "İhanet eden birine nasıl davranırsın?",
+        options: [
+          { id: "h1", text: "Hesabını sorarım", resultId: "polat" },
+          { id: "h2", text: "Yüzleşir, cezalandırırım", resultId: "memati" },
+          { id: "h3", text: "Soğukkanlı bir şekilde halledrim", resultId: "aslan" },
+          { id: "h4", text: "Ortadan kaldırırım", resultId: "cakir" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Türkiye'nin geleceği için ne yapardın?",
+        options: [
+          { id: "i1", text: "Her türlü fedakarlığı göze alırım", resultId: "polat" },
+          { id: "i2", text: "Askeri gücü kullanırım", resultId: "memati" },
+          { id: "i3", text: "Stratejik hamleler yaparım", resultId: "aslan" },
+          { id: "i4", text: "Kendi çıkarlarıma göre hareket ederim", resultId: "cakir" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Hangi söz seni tanımlar?",
+        options: [
+          { id: "j1", text: "Vatan sağolsun", resultId: "polat" },
+          { id: "j2", text: "Asker vatanına minnettardır", resultId: "memati" },
+          { id: "j3", text: "Strateji her şeydir", resultId: "aslan" },
+          { id: "j4", text: "Para her kapıyı açar", resultId: "cakir" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "polat",
+        character: "Polat Alemdar",
+        description: "Sen vatansever, fedakar ve kararlısın! Derin devlet ajanısın ve vatan için her türlü görevi kabul ediyorsun. Mafya olarak görünüyorsun ama aslında devletin görevlisisin. Muratbey ve Süleyman Çakır'dan sonra KGT'nin başındasın. Memati senin kardeşin, Elif senin sevgilin. 'Vatan sağolsun' senin motton!",
+      },
+      {
+        id: "memati",
+        character: "Mehmet Karahanlı (Memati)",
+        description: "Sen sadık, güçlü ve disiplinlisin! Eski askersin ve Polat'ın sağ kolusun. Askeri disiplinden geliyorsun ve kurallara uyarsın. Polat'a sonsuza kadar bağlısın. Selim Çakır ile kardeşsin. Elsiyem'le evlisin. Fiziksel gücün ve sadakatin senin en büyük özelliğin!",
+      },
+      {
+        id: "aslan",
+        character: "Aslan Akbey",
+        description: "Sen stratejik, zeki ve diplomatiksin! Devletin üst düzey yetkilisisin ve Polat'ı yönlendiriyorsun. Derin devletin beynlerisin. Uluslararası ilişkilerde ustasın. Soğukkanlı ve hesaplı hareket ediyorsun. Polat'a görevler veriyorsun. 'Büyük oyunu' görüyorsun!",
+      },
+      {
+        id: "cakir",
+        character: "Süleyman Çakır",
+        description: "Sen karizmatik, güçlü ama trajiksin! İstanbul'un en güçlü mafya liderlerinden birisin. KGT'nin kurucususun. Polat'ı yetiştirdin ama sonunda öldürüldün. 'Dünya malına tamah etme, bir lokma bir hırka, yeter' dedin ama yaşamadın. Baron, Testere ve Erhan senin adamlarındı!",
+      },
+    ],
+  },
+  {
+    id: "avrupayakasi",
+    title: "Avrupa Yakası'ndan Hangi Karaktersin?",
+    description: "Türk sitcom tarihinin efsane dizisinde hangi karaktersin?",
+    icon: "Laugh",
+    emoji: "🏠",
+    questions: [
+      {
+        id: "q1",
+        text: "Bir problemi nasıl çözersin?",
+        options: [
+          { id: "a1", text: "Gerizekalıca hamlelerle", resultId: "tahsin" },
+          { id: "a2", text: "Organizasyon ve planlama ile", resultId: "aysegul" },
+          { id: "a3", text: "Egomla başa çıkmaya çalışırım", resultId: "burhan" },
+          { id: "a4", text: "Hayallerimle", resultId: "aslı" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "İş hayatında nasılsın?",
+        options: [
+          { id: "b1", text: "Sürekli işsizim ama umudum var", resultId: "tahsin" },
+          { id: "b2", text: "Bankada çalışıyorum, disiplinliyim", resultId: "aysegul" },
+          { id: "b3", text: "Kendi işimi kurdum, patronum", resultId: "burhan" },
+          { id: "b4", text: "Türk sinemasının yıldızıyım", resultId: "aslı" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "En büyük hayalin nedir?",
+        options: [
+          { id: "c1", text: "Zengin olmak ve hiçbir şey yapmamak", resultId: "tahsin" },
+          { id: "c2", text: "Düzenli ve huzurlu bir hayat", resultId: "aysegul" },
+          { id: "c3", text: "İmparatorluk kurmak", resultId: "burhan" },
+          { id: "c4", text: "Ünlü bir aktris olmak", resultId: "aslı" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Evde ne yapmayı seversin?",
+        options: [
+          { id: "d1", text: "Kanepeye yatıp TV izlemek", resultId: "tahsin" },
+          { id: "d2", text: "Temizlik ve düzen yapmak", resultId: "aysegul" },
+          { id: "d3", text: "İş planları yapmak", resultId: "burhan" },
+          { id: "d4", text: "Aynada prova yapmak", resultId: "aslı" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "Komşu ilişkilerin nasıl?",
+        options: [
+          { id: "e1", text: "Komşuları kullanmaya çalışırım", resultId: "tahsin" },
+          { id: "e2", text: "Nazik ve mesafelimdim", resultId: "aysegul" },
+          { id: "e3", text: "Onlara iş teklifi yaparım", resultId: "burhan" },
+          { id: "e4", text: "Etkilemeye çalışırım", resultId: "aslı" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Para kazanma yöntemin nedir?",
+        options: [
+          { id: "f1", text: "Annemden ve eşimden alırım", resultId: "tahsin" },
+          { id: "f2", text: "Düzenli maaş", resultId: "aysegul" },
+          { id: "f3", text: "İş kurarak", resultId: "burhan" },
+          { id: "f4", text: "Oyunculuk (hayalimde)", resultId: "aslı" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Zekâ seviyeni nasıl tanımlarsın?",
+        options: [
+          { id: "g1", text: "Düşük ama kendimce hallediyorum", resultId: "tahsin" },
+          { id: "g2", text: "Normal ve mantıklı", resultId: "aysegul" },
+          { id: "g3", text: "Üstün zekâlıyım (kendi düşüncem)", resultId: "burhan" },
+          { id: "g4", text: "Sanatsal zekâm yüksek", resultId: "aslı" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Arkadaş çevren nasıl?",
+        options: [
+          { id: "h1", text: "Kullanabileceğim insanlar", resultId: "tahsin" },
+          { id: "h2", text: "Seçkin ve az", resultId: "aysegul" },
+          { id: "h3", text: "İş ortakları ve müşteriler", resultId: "burhan" },
+          { id: "h4", text: "Hayran kitlesi (hayal)", resultId: "aslı" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Kültürel seviyeni nasıl tanımlarsın?",
+        options: [
+          { id: "i1", text: "Futbol ve TV, yeterli", resultId: "tahsin" },
+          { id: "i2", text: "Kitap okur, opera dinlerim", resultId: "aysegul" },
+          { id: "i3", text: "İş dünyasının kültürü", resultId: "burhan" },
+          { id: "i4", text: "Sinema ve tiyatro aşığıyım", resultId: "aslı" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Hangi cümle seni tanımlar?",
+        options: [
+          { id: "j1", text: "Burhan abi, pardon Tahsin", resultId: "tahsin" },
+          { id: "j2", text: "Tahsin, lütfen!", resultId: "aysegul" },
+          { id: "j3", text: "Ben Burhan Altıntop", resultId: "burhan" },
+          { id: "j4", text: "Aslı Tatlıtuğ, Türk sinemasının yıldızı", resultId: "aslı" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "tahsin",
+        character: "Tahsin Yazıcı",
+        description: "Sen tembelsin, aptal değilsin ama gerizekalısın! İşsizsin ve annenin parasıyla yaşıyorsun. Sürekli Burhan Altıntop'u taklit ediyorsun. Ayşegül ile evlisin ama ona değer vermiyorsun. Tüm gün kanepeye yatıp TV izliyorsun. 'Harikasın Tahsin!' diyorsun ama değilsin. Volkan'ı kandırmaya çalışıyorsun!",
+      },
+      {
+        id: "aysegul",
+        character: "Ayşegül Yazıcı",
+        description: "Sen sabırlı, organize ve sinirlerin bozuksun! Bankada çalışıyorsun ve evin geçimini sen sağlıyorsun. Tahsin'e katlanmaya çalışıyorsun ama bazen patlıyorsun. 'Tahsin, lütfen!' diye bağırıyorsun. Kültürlü ve okumuşsun ama evliliğin zor. Anne Semiha seni çileden çıkarıyor!",
+      },
+      {
+        id: "burhan",
+        character: "Burhan Altıntop",
+        description: "Sen egoist, kendini beğenmiş ama komiksin! Sürekli yeni iş fikirleri buluyorsun ama hiçbiri tutmuyor. 'Ben Burhan Altıntop' diye tanıtıyorsun kendini. Arzu ile evlisin. Cem Davran seni dolandırıyor. Volkan'ı kullanmaya çalışıyorsun. 'Patron' olmak istiyorsun!",
+      },
+      {
+        id: "aslı",
+        character: "Aslı Tatlıtuğ",
+        description: "Sen hayalperest, dramatik ve komiksin! Türk sinemasının yıldızı olmak istiyorsun ama hiç iş alamıyorsun. Sürekli aynada prova yapıyorsun. 'Aslı Tatlıtuğ, Türk sinemasının yıldızı' diye kendini tanıtıyorsun. Tamer ile ilişkin karmaşık. Bülent'i etkilemeye çalışıyorsun!",
+      },
+    ],
+  },
+  {
+    id: "yaprakdokumu",
+    title: "Yaprak Dökümü'nden Hangi Karaktersin?",
+    description: "Tekin ailesinin hangi üyesisin?",
+    icon: "Users",
+    emoji: "🍂",
+    questions: [
+      {
+        id: "q1",
+        text: "Aile içinde rolün nedir?",
+        options: [
+          { id: "a1", text: "Otoriteyim, her şeyi ben bilirim", resultId: "ali" },
+          { id: "a2", text: "Barış ve sevgi getirmeye çalışırım", resultId: "hayriye" },
+          { id: "a3", text: "İsyankâr ve özgürüm", resultId: "ferhunde" },
+          { id: "a4", text: "Geleneklere bağlıyım", resultId: "leyla" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Evlilik hakkında ne düşünüyorsun?",
+        options: [
+          { id: "b1", text: "Aile düzeninin temelidir", resultId: "ali" },
+          { id: "b2", text: "Sevgi ve anlayış gerektirir", resultId: "hayriye" },
+          { id: "b3", text: "Özgürlük kısıtlamasıdır", resultId: "ferhunde" },
+          { id: "b4", text: "Görev ve sorumluluktur", resultId: "leyla" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Çocuk yetiştirmede prensiplerin neler?",
+        options: [
+          { id: "c1", text: "Disiplin ve otorite", resultId: "ali" },
+          { id: "c2", text: "Sevgi ve anlayış", resultId: "hayriye" },
+          { id: "c3", text: "Özgürlük ve destek", resultId: "ferhunde" },
+          { id: "c4", text: "Geleneksel değerler", resultId: "leyla" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Modern hayata karşı tavrın nasıl?",
+        options: [
+          { id: "d1", text: "Değerlerimizi koruyalım", resultId: "ali" },
+          { id: "d2", text: "Dengeli olalım", resultId: "hayriye" },
+          { id: "d3", text: "Kucaklayalım ve özgürleşelim", resultId: "ferhunde" },
+          { id: "d4", text: "Geleneği sürdürelim", resultId: "leyla" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "Aile içi anlaşmazlıkta ne yaparsın?",
+        options: [
+          { id: "e1", text: "Son sözü ben söylerim", resultId: "ali" },
+          { id: "e2", text: "Arabuluculuk yaparım", resultId: "hayriye" },
+          { id: "e3", text: "Fikrimi söyler, kendi yoluma giderim", resultId: "ferhunde" },
+          { id: "e4", text: "Büyüklerin dediklerini yaparım", resultId: "leyla" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Kariyer ve aile arasında seçim yapmak zorunda kalsan?",
+        options: [
+          { id: "f1", text: "Aile her şeyden önemlidir", resultId: "ali" },
+          { id: "f2", text: "Aile, ama anlayışla", resultId: "hayriye" },
+          { id: "f3", text: "Kariyerim benim kimliğim", resultId: "ferhunde" },
+          { id: "f4", text: "Aile görevim", resultId: "leyla" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "İstanbul'un hangi semtinde yaşardın?",
+        options: [
+          { id: "g1", text: "Geleneksel bir Boğaziçi semti", resultId: "ali" },
+          { id: "g2", text: "Sakin ve huzurlu bir yer", resultId: "hayriye" },
+          { id: "g3", text: "Modern ve canlı bir semt", resultId: "ferhunde" },
+          { id: "g4", text: "Ailenin olduğu yer", resultId: "leyla" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Hangi değer senin için en önemli?",
+        options: [
+          { id: "h1", text: "Onur ve namus", resultId: "ali" },
+          { id: "h2", text: "Sevgi ve merhamet", resultId: "hayriye" },
+          { id: "h3", text: "Özgürlük ve bağımsızlık", resultId: "ferhunde" },
+          { id: "h4", text: "Aile ve gelenek", resultId: "leyla" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Kadının toplumdaki yeri hakkında ne düşünüyorsun?",
+        options: [
+          { id: "i1", text: "Evin direğidir, ama geleneksel roller önemli", resultId: "ali" },
+          { id: "i2", text: "Sevgi verir, aileyi bir arada tutar", resultId: "hayriye" },
+          { id: "i3", text: "Özgür ve eşit olmalıdır", resultId: "ferhunde" },
+          { id: "i4", text: "Eş, anne ve hanımdır", resultId: "leyla" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Hangi söz seni tanımlar?",
+        options: [
+          { id: "j1", text: "Ben bu evin reisiyim", resultId: "ali" },
+          { id: "j2", text: "Sevgiyle her şey hallolur", resultId: "hayriye" },
+          { id: "j3", text: "Kendi ayaklarımın üzerinde durmalıyım", resultId: "ferhunde" },
+          { id: "j4", text: "Aile her şeyden önemlidir", resultId: "leyla" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "ali",
+        character: "Ali Rıza Tekin",
+        description: "Sen otoritersin, gelenekçisin ve katısın! Ailenin reisisin ve her kararı sen verirsin. Değerlere çok bağlısın ve modern hayatı tehlikeli buluyorsun. Özellikle Ferhunde'nin özgürlüğüne karşısın. Hayriye'ye saygı duyuyorsun ama onu da kontrol ediyorsun. 'Ben bu evin reisiyim' senin sözün!",
+      },
+      {
+        id: "hayriye",
+        character: "Hayriye Tekin",
+        description: "Sen sevgi dolu, anlayışlı ve arabulucusun! Ali Rıza'nın sert karakterine rağmen aileyi bir arada tutmaya çalışıyorsun. Çocuklarına çok düşkünsün ve onların mutluluğu için çaba gösteriyorsun. Geleneklere saygılısın ama modernitenin de faydasını görüyorsun. Sabırlısın ve fedakarsın!",
+      },
+      {
+        id: "ferhunde",
+        character: "Ferhunde Tekin",
+        description: "Sen isyankârsın, özgürsün ve cesursun! Babanın gelenekçi tutumuna karşı çıkıyorsun ve kendi hayatını yaşamak istiyorsun. Üniversite okumak ve iş hayatına atılmak istiyorsun. Fikret'e aşıksın ve onunla evlenmek için mücadele ediyorsun. Kadın hakları senin için önemli!",
+      },
+      {
+        id: "leyla",
+        character: "Leyla Tekin",
+        description: "Sen geleneklere bağlısın, uyumlusun ve görevlisin! Ailenin beklentilerini karşılamaya çalışıyorsun. Necati ile evlendin ve iyi bir eş olmaya çalışıyorsun. Ferhunde'nin aksine babanın otoritesini kabul ediyorsun. Sessizsin ama ailenin huzuru için çaba gösteriyorsun!",
+      },
+    ],
+  },
+  {
+    id: "kizilcikserbeti",
+    title: "Kızılcık Şerbeti'nden Hangi Karaktersin?",
+    description: "Modern ve geleneksel değerlerin çatıştığı dizide hangi karaktersin?",
+    icon: "Cherry",
+    emoji: "🍒",
+    questions: [
+      {
+        id: "q1",
+        text: "Hayat tarzını nasıl tanımlarsın?",
+        options: [
+          { id: "a1", text: "Modern ve özgür", resultId: "doganumut" },
+          { id: "a2", text: "Geleneksel ve muhafazakar", resultId: "kismetfatma" },
+          { id: "a3", text: "Dengeli ve uyumlu", resultId: "cemile" },
+          { id: "a4", text: "İdealist ve prensipli", resultId: "omer" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Çocuk yetiştirmede en önemli değer nedir?",
+        options: [
+          { id: "b1", text: "Özgüven ve bağımsızlık", resultId: "doganumut" },
+          { id: "b2", text: "Dini ve ahlaki değerler", resultId: "kismetfatma" },
+          { id: "b3", text: "Sevgi ve anlayış", resultId: "cemile" },
+          { id: "b4", text: "Adalet ve dürüstlük", resultId: "omer" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Farklı düşünen biriyle nasıl ilişki kurarsın?",
+        options: [
+          { id: "c1", text: "Açık fikirli ve hoşgörülü", resultId: "doganumut" },
+          { id: "c2", text: "Mesafeli ve temkinli", resultId: "kismetfatma" },
+          { id: "c3", text: "Köprü kurmaya çalışırım", resultId: "cemile" },
+          { id: "c4", text: "Ortak nokta ararım", resultId: "omer" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Aile ve kariyer arasında denge nasıl kurulur?",
+        options: [
+          { id: "d1", text: "Her ikisi de eşit önemde", resultId: "doganumut" },
+          { id: "d2", text: "Aile her zaman önce gelir", resultId: "kismetfatma" },
+          { id: "d3", text: "Duruma göre değişir", resultId: "cemile" },
+          { id: "d4", text: "İlkelerimden taviz vermeden", resultId: "omer" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "Kadının toplumdaki yerini nasıl tanımlarsın?",
+        options: [
+          { id: "e1", text: "Özgür ve eşit", resultId: "doganumut" },
+          { id: "e2", text: "Geleneksel rollerinde değerli", resultId: "kismetfatma" },
+          { id: "e3", text: "Dengeli ve güçlü", resultId: "cemile" },
+          { id: "e4", text: "Adaletli ve saygın", resultId: "omer" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Komşuluk ilişkileri nasıl olmalı?",
+        options: [
+          { id: "f1", text: "Saygılı ama özgür", resultId: "doganumut" },
+          { id: "f2", text: "Sıkı ve dayanışmacı", resultId: "kismetfatma" },
+          { id: "f3", text: "Sıcak ve samimi", resultId: "cemile" },
+          { id: "f4", text: "Dürüst ve adil", resultId: "omer" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Bir çatışmayı nasıl çözersin?",
+        options: [
+          { id: "g1", text: "Açık konuşur, çözüm ararım", resultId: "doganumut" },
+          { id: "g2", text: "Dua eder, sabrederim", resultId: "kismetfatma" },
+          { id: "g3", text: "Arabuluculuk yaparım", resultId: "cemile" },
+          { id: "g4", text: "Adil çözüm ararım", resultId: "omer" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Eğitim hakkında ne düşünüyorsun?",
+        options: [
+          { id: "h1", text: "Modern eğitim şart", resultId: "doganumut" },
+          { id: "h2", text: "Dini eğitim temeldir", resultId: "kismetfatma" },
+          { id: "h3", text: "Her ikisi de önemli", resultId: "cemile" },
+          { id: "h4", text: "Kaliteli ve adil eğitim", resultId: "omer" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Değişime nasıl bakıyorsun?",
+        options: [
+          { id: "i1", text: "Değişim gerekli ve güzel", resultId: "doganumut" },
+          { id: "i2", text: "Değerlerimizi koruyalım", resultId: "kismetfatma" },
+          { id: "i3", text: "Yavaş ve dikkatli değişim", resultId: "cemile" },
+          { id: "i4", text: "İlkelere uygun değişim", resultId: "omer" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Hangi söz seni tanımlar?",
+        options: [
+          { id: "j1", text: "Herkes kendi hayatını yaşamalı", resultId: "doganumut" },
+          { id: "j2", text: "Allah'ım bize sabır ver", resultId: "kismetfatma" },
+          { id: "j3", text: "Birbirimizi anlayalım", resultId: "cemile" },
+          { id: "j4", text: "Adalet her şeyin temelidir", resultId: "omer" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "doganumut",
+        character: "Doğa/Nursema veya Umut/Alev",
+        description: "Sen modern, özgür ve açık fikirlisin! Geleneksel baskılara karşı çıkıyorsun ve kendi hayatını yaşamak istiyorsun. Farklı hayat tarzlarına saygılısın ama özgürlüğünden ödün vermiyorsun. Aşkını yaşamak için mücadele ediyorsun. Ailenle çatışsan da sevgini kaybetmiyorsun!",
+      },
+      {
+        id: "kismetfatma",
+        character: "Kısmet/Fatma",
+        description: "Sen gelenekçi, dindar ve muhafazakarsın! Değerlerine çok bağlısın ve modern hayat tarzını tehlikeli buluyorsun. Kızının/komşunun özgürlüğüne karşısın. Dini kurallara uyuyorsun ve herkesin de böyle yapmasını istiyorsun. Ama içinde sevgi de var, sadece ifade etmekte zorlanıyorsun!",
+      },
+      {
+        id: "cemile",
+        character: "Cemile",
+        description: "Sen dengeli, anlayışlı ve arabulucusun! Geleneksel değerlere saygılısın ama modernitenin de faydasını görüyorsun. İki aile arasında köprü kurmaya çalışıyorsun. Herkesin mutluluğu için çaba gösteriyorsun. Sabrın ve hoşgörün seni özel yapıyor!",
+      },
+      {
+        id: "omer",
+        character: "Ömer",
+        description: "Sen ilkeli, dürüst ve adaletlisin! Hukuk adamısın ve her durumda doğru olanı yapmaya çalışıyorsun. Geleneklere saygılısın ama adaletten taviz vermiyorsun. Ailenin beklentileriyle kendi ilkelerin arasında denge kuruyorsun. Sevginde ve işinde prensiplisin!",
+      },
+    ],
+  },
+  {
+    id: "yalicapkini",
+    title: "Yalı Çapkını'ndan Hangi Karaktersin?",
+    description: "Aşk, zenginlik ve aile bağlarının çatıştığı dizide hangi karaktersin?",
+    icon: "Home",
+    emoji: "💎",
+    questions: [
+      {
+        id: "q1",
+        text: "Aşka nasıl yaklaşırsın?",
+        options: [
+          { id: "a1", text: "Çapkınca, ama sonunda ciddileşirim", resultId: "ferit" },
+          { id: "a2", text: "İçten, dürüst ve tutkulu", resultId: "seyran" },
+          { id: "a3", text: "Kontrolcü ve possessif", resultId: "suna" },
+          { id: "a4", text: "Sakin ve sadık", resultId: "kazim" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Sosyal statü senin için ne ifade eder?",
+        options: [
+          { id: "b1", text: "Her şey, ama aşk daha önemli çıktı", resultId: "ferit" },
+          { id: "b2", text: "Yükleyici ve boğucu", resultId: "seyran" },
+          { id: "b3", text: "Kimliğimin bir parçası", resultId: "suna" },
+          { id: "b4", text: "Önemli değil, namuslu olmak yeter", resultId: "kazim" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Ailenin baskısına nasıl tepki verirsin?",
+        options: [
+          { id: "c1", text: "Başta isyan ederim, sonra değişirim", resultId: "ferit" },
+          { id: "c2", text: "Kendi ayaklarımın üzerinde durmaya çalışırım", resultId: "seyran" },
+          { id: "c3", text: "Kontrol ederim", resultId: "suna" },
+          { id: "c4", text: "Namus ve şeref için katlanırım", resultId: "kazim" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Bir yalancılık durumunda ne yaparsın?",
+        options: [
+          { id: "d1", text: "İlk başta yalan söylerim ama sonra pişman olurum", resultId: "ferit" },
+          { id: "d2", text: "Doğruyu savunurum", resultId: "seyran" },
+          { id: "d3", text: "Durumu kontrol altına almaya çalışırım", resultId: "suna" },
+          { id: "d4", text: "Dürüst olurum", resultId: "kazim" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "İstanbul'un hangi semtinde yaşardın?",
+        options: [
+          { id: "e1", text: "Boğaz'da lüks bir yalıda", resultId: "ferit" },
+          { id: "e2", text: "Mütevazi ama huzurlu bir yerde", resultId: "seyran" },
+          { id: "e3", text: "Gösterişli bir konakta", resultId: "suna" },
+          { id: "e4", text: "Antep'te, memleketimde", resultId: "kazim" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "İş hayatında nasılsın?",
+        options: [
+          { id: "f1", text: "Disiplinsiz ama sonra toparlanırım", resultId: "ferit" },
+          { id: "f2", text: "Çalışkan ve azimli", resultId: "seyran" },
+          { id: "f3", text: "Stratejik ve güçlü", resultId: "suna" },
+          { id: "f4", text: "Geleneksel işlerde ustayım", resultId: "kazim" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Bir çatışmayı nasıl çözersin?",
+        options: [
+          { id: "g1", text: "İlk başta kaçarım, sonra yüzleşirim", resultId: "ferit" },
+          { id: "g2", text: "Cesurca karşı koyarım", resultId: "seyran" },
+          { id: "g3", text: "Manipüle ederim", resultId: "suna" },
+          { id: "g4", text: "Geleneksel yollarla", resultId: "kazim" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Aşk mı, kariyer mi?",
+        options: [
+          { id: "h1", text: "Önce kariyer dedim ama aşk kazandı", resultId: "ferit" },
+          { id: "h2", text: "İkisini de dengeleyebilirim", resultId: "seyran" },
+          { id: "h3", text: "Kariyer, güç demek", resultId: "suna" },
+          { id: "h4", text: "Aile ve namus", resultId: "kazim" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Değişime nasıl bakıyorsun?",
+        options: [
+          { id: "i1", text: "Değiştim ve mutlu oldum", resultId: "ferit" },
+          { id: "i2", text: "Güçlenip değiştim", resultId: "seyran" },
+          { id: "i3", text: "Değişmem, başkaları değişmeli", resultId: "suna" },
+          { id: "i4", text: "Geleneklere bağlıyım", resultId: "kazim" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Hangi söz seni tanımlar?",
+        options: [
+          { id: "j1", text: "Senin için değiştim", resultId: "ferit" },
+          { id: "j2", text: "Kendi ayaklarımın üzerinde durmalıyım", resultId: "seyran" },
+          { id: "j3", text: "Bu aile benim eseriim", resultId: "suna" },
+          { id: "j4", text: "Namus şeref her şeydir", resultId: "kazim" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "ferit",
+        character: "Ferit Korhan",
+        description: "Sen çapkın, zengin ama değişkensin! Başlangıçta sorumsuz ve çapkındın. Seyran ile zoraki evlendin ama sonra gerçekten aşık oldun. İş hayatında disiplinsizdin ama onun için değiştin. Hala gururlusun ama artık sevgiyi öğreniyorsun. Dedene saygılısın!",
+      },
+      {
+        id: "seyran",
+        character: "Seyran Şanlı",
+        description: "Sen güçlü, bağımsız ve cesursun! Antep'ten İstanbul'a geldin ve zorla Ferit ile evlendin. Ama boyun eğmedin, kendi ayakların üzerinde durmaya çalıştın. Üniversiteye gitmek ve iş hayatına atılmak istedin. Ferit'e aşık oldun ama özgürlüğünden vazgeçmedin!",
+      },
+      {
+        id: "suna",
+        character: "Suna Korhan (İfakat)",
+        description: "Sen güçlü, kontrolcü ve stratejiksin! Korhan ailesinin gerçek gücüsün. Herkesin ipini elinde tutuyorsun. Ferit'in annesi rolünde onu kontrol ediyorsun. Sırlarınla aileni yönetiyorsun. Halis Ağa'yı bile manipüle ediyorsun. Güç senin her şeyin!",
+      },
+      {
+        id: "kazim",
+        character: "Kazım Şanlı",
+        description: "Sen geleneksel, namuslu ve katısın! Antepli bir ailenin reisisin. Kızlarını İstanbul'a evlilik için gönderdin. Namus ve şeref senin her şeyin. Ferit'in zenginliğine güvendin ama kızının mutsuzluğunu görünce vicdanın sızladı. Geleneklere çok bağlısın!",
+      },
+    ],
+  },
+  {
+    id: "leylamecnun",
+    title: "Leyla ile Mecnun'dan Hangi Karaktersin?",
+    description: "Absürt komedinin efsane dizisinde hangi karaktersin?",
+    icon: "Theater",
+    emoji: "🚢",
+    questions: [
+      {
+        id: "q1",
+        text: "Aşka nasıl yaklaşırsın?",
+        options: [
+          { id: "a1", text: "Delicesine ve şiirselsine", resultId: "mecnun" },
+          { id: "a2", text: "İçten ama utangaç", resultId: "leyla" },
+          { id: "a3", text: "Pragmatik ve gerçekçi", resultId: "ismail" },
+          { id: "a4", text: "Haylaz ve eğlenceli", resultId: "erdal" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Hayatın anlamı nedir?",
+        options: [
+          { id: "b1", text: "Aşk ve şiir", resultId: "mecnun" },
+          { id: "b2", text: "Huzur ve mutluluk", resultId: "leyla" },
+          { id: "b3", text: "Para kazanmak", resultId: "ismail" },
+          { id: "b4", text: "Eğlenmek ve takılmak", resultId: "erdal" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Bir problemi nasıl çözersin?",
+        options: [
+          { id: "c1", text: "Absürt ve yaratıcı yollarla", resultId: "mecnun" },
+          { id: "c2", text: "Sessizce ve içimde", resultId: "leyla" },
+          { id: "c3", text: "Mantıklı ve pratik", resultId: "ismail" },
+          { id: "c4", text: "Dalga geçerek", resultId: "erdal" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Arkadaş çevren nasıl?",
+        options: [
+          { id: "d1", text: "Az ama sadık", resultId: "mecnun" },
+          { id: "d2", text: "Çok yok, çok içime kapanığım", resultId: "leyla" },
+          { id: "d3", text: "Herkesle iyi geçinirim", resultId: "ismail" },
+          { id: "d4", text: "Büyük ve eğlenceli", resultId: "erdal" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "İş hayatında nasılsın?",
+        options: [
+          { id: "e1", text: "Dağınık ve düzensiz", resultId: "mecnun" },
+          { id: "e2", text: "Yok", resultId: "leyla" },
+          { id: "e3", text: "Organize ve işkolik", resultId: "ismail" },
+          { id: "e4", text: "Tembelim ama şansım var", resultId: "erdal" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "İstanbul'un hangi semtinde yaşardın?",
+        options: [
+          { id: "f1", text: "Çengelköy'de, Leyla'ya yakın", resultId: "mecnun" },
+          { id: "f2", text: "Çengelköy'de, evimde", resultId: "leyla" },
+          { id: "f3", text: "İş yerime yakın bir yerde", resultId: "ismail" },
+          { id: "f4", text: "Her yerde, ben gezginim", resultId: "erdal" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Ailene karşı tavrın nasıl?",
+        options: [
+          { id: "g1", text: "Seviyorum ama bazen anlamıyorum", resultId: "mecnun" },
+          { id: "g2", text: "Bağımlıyım", resultId: "leyla" },
+          { id: "g3", text: "Sorumluluk sahibiyim", resultId: "ismail" },
+          { id: "g4", text: "Eğlenceli", resultId: "erdal" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Kültürel ilgi alanların neler?",
+        options: [
+          { id: "h1", text: "Şiir, müzik ve sanat", resultId: "mecnun" },
+          { id: "h2", text: "Okumak ve müzik dinlemek", resultId: "leyla" },
+          { id: "h3", text: "İş dergileri ve haberler", resultId: "ismail" },
+          { id: "h4", text: "Dizi izlemek ve takılmak", resultId: "erdal" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Bir ağaca çıkar mısın?",
+        options: [
+          { id: "i1", text: "Evet, Leyla için her yere çıkarım", resultId: "mecnun" },
+          { id: "i2", text: "Hayır, korkutucu", resultId: "leyla" },
+          { id: "i3", text: "Mantıklı değil", resultId: "ismail" },
+          { id: "i4", text: "Neden olmasın, eğlenceli", resultId: "erdal" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Hangi söz seni tanımlar?",
+        options: [
+          { id: "j1", text: "Leyla! Leyla!", resultId: "mecnun" },
+          { id: "j2", text: "...", resultId: "leyla" },
+          { id: "j3", text: "Para kazanmak lazım", resultId: "ismail" },
+          { id: "j4", text: "Hayat eğlenceli olmalı", resultId: "erdal" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "mecnun",
+        character: "Mecnun Çınar",
+        description: "Sen romantiksin, şairsin ve absürtsün! Leyla'ya deli gibi aşıksın ve onun için her şeyi yaparsın. Ağaca çıkar, şiirler yazarsın. Hayata farklı bakıyorsun ve herkes seni biraz tuhaf buluyor. Dede seni anlamaya çalışıyor. İsmail abi senin en yakın dostun!",
+      },
+      {
+        id: "leyla",
+        character: "Leyla Korhan",
+        description: "Sen içine kapanıksın, hassassın ve güzelsin! Mecnun'u seviyorsun ama utanıyorsun. Çok konuşmazsın ama içinden çok şey geçiyor. Ailene çok bağımlısın. Arda ile zorunlu nişanlandın. Mecnun'un aşkını anlamaya çalışıyorsun. Sessizsin ama güçlüsün!",
+      },
+      {
+        id: "ismail",
+        character: "İsmail Çınar",
+        description: "Sen pragmatiksin, işkoliksin ama iyi kalplisin! Para kazanmak senin en büyük hedefin. Sürekli yeni iş fikirleri buluyorsun. Mecnun'a ağabeylik yapıyorsun ve onu anlamaya çalışıyorsun. Cilalı İsmail sendromu var. Selma ile evlisin. Erdal senin ortağın!",
+      },
+      {
+        id: "erdal",
+        character: "Erdal Bakkal",
+        description: "Sen haylazsın, eğlencelisin ve şanslısın! Bakkal dükkanın var ama pek çalışmazsın. Sürekli Mecnun ve İsmail ile takılıyorsun. Saçma işlere giriyorsun ama şansın yardım ediyor. Neşelisin ve herkesle iyi geçiniyorsun. 'Ya ben?' diye soruyorsun hep!",
+      },
+    ],
+  },
 ];
