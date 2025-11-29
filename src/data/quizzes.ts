@@ -26,6 +26,8 @@ export interface Quiz {
   results: QuizResult[];
 }
 
+import { additionalQuizzes } from "./quizzes-part2";
+
 export const quizzes: Quiz[] = [
   {
     id: "friends",
@@ -813,4 +815,267 @@ export const quizzes: Quiz[] = [
       },
     ],
   },
+  {
+    id: "wednesday",
+    title: "Wednesday'den Hangi Karaktersin?",
+    description: "Nevermore Academy'nin hangi öğrencisisin?",
+    icon: "Ghost",
+    emoji: "🕷️",
+    questions: [
+      {
+        id: "q1",
+        text: "Sosyal etkileşimlerden nasıl keyif alırsın?",
+        options: [
+          { id: "a1", text: "Almam, yalnızlığı tercih ederim", resultId: "wednesday" },
+          { id: "a2", text: "Yakın arkadaşlarımla kaliteli vakit geçiririm", resultId: "enid" },
+          { id: "a3", text: "Herkesin merkezinde olmayı severim", resultId: "bianca" },
+          { id: "a4", text: "Sakin ve romantik anları severim", resultId: "xavier" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "Bir gizemi nasıl çözersin?",
+        options: [
+          { id: "b1", text: "Mantıklı düşünür, ipuçlarını analiz ederim", resultId: "wednesday" },
+          { id: "b2", text: "Arkadaşlarımdan yardım alırım", resultId: "enid" },
+          { id: "b3", text: "Yeteneklerimi kullanırım", resultId: "bianca" },
+          { id: "b4", text: "Sezgilerime güvenirim", resultId: "xavier" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "En önemli değerin nedir?",
+        options: [
+          { id: "c1", text: "Özgünlük ve bağımsızlık", resultId: "wednesday" },
+          { id: "c2", text: "Dostluk ve sadakat", resultId: "enid" },
+          { id: "c3", text: "Güç ve kontrol", resultId: "bianca" },
+          { id: "c4", text: "Sanat ve yaratıcılık", resultId: "xavier" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "Boş vaktinde ne yaparsın?",
+        options: [
+          { id: "d1", text: "Karanlık romanlar okur, çello çalarım", resultId: "wednesday" },
+          { id: "d2", text: "Renkli kıyafetler tasarlar, blog yazarım", resultId: "enid" },
+          { id: "d3", text: "Yeteneklerimi geliştiririm", resultId: "bianca" },
+          { id: "d4", text: "Resim yapar, sanat üretirim", resultId: "xavier" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "Hangi kelime seni tanımlar?",
+        options: [
+          { id: "e1", text: "Karanlık", resultId: "wednesday" },
+          { id: "e2", text: "Neşeli", resultId: "enid" },
+          { id: "e3", text: "Güçlü", resultId: "bianca" },
+          { id: "e4", text: "Sanatçı", resultId: "xavier" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Nevermore'da hangi yeteneğe sahip olmak isterdin?",
+        options: [
+          { id: "f1", text: "Psişik görüler", resultId: "wednesday" },
+          { id: "f2", text: "Kurt dönüşümü", resultId: "enid" },
+          { id: "f3", text: "Denizkızı güçleri", resultId: "bianca" },
+          { id: "f4", text: "Resimlerimi canlandırmak", resultId: "xavier" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Bir tehditle karşılaşsan ne yapardın?",
+        options: [
+          { id: "g1", text: "Soğukkanlı kalır, stratejik hareket ederim", resultId: "wednesday" },
+          { id: "g2", text: "Arkadaşlarımla birlikte hareket ederim", resultId: "enid" },
+          { id: "g3", text: "Güçlerimi kullanarak domine ederim", resultId: "bianca" },
+          { id: "g4", text: "Yaratıcı çözümler bulurum", resultId: "xavier" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Aşk hayatında nasılsın?",
+        options: [
+          { id: "h1", text: "Duygularımı ifade etmekte zorlanırım", resultId: "wednesday" },
+          { id: "h2", text: "Romantik ve tutkulu", resultId: "enid" },
+          { id: "h3", text: "İlişkileri kontrol etmeyi severim", resultId: "bianca" },
+          { id: "h4", text: "Sanatımla aşkımı ifade ederim", resultId: "xavier" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "Moda tarzın nasıl?",
+        options: [
+          { id: "i1", text: "Tamamen siyah, gotik", resultId: "wednesday" },
+          { id: "i2", text: "Renkli, çılgın ve eğlenceli", resultId: "enid" },
+          { id: "i3", text: "Şık, gösterişli ve pahalı", resultId: "bianca" },
+          { id: "i4", text: "Sanatçı ve bohem", resultId: "xavier" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Ailenle ilişkin nasıl?",
+        options: [
+          { id: "j1", text: "Karmaşık, mesafeli", resultId: "wednesday" },
+          { id: "j2", text: "Sevgi dolu ve destekleyici", resultId: "enid" },
+          { id: "j3", text: "Baskıcı ve beklenti dolu", resultId: "bianca" },
+          { id: "j4", text: "Anlaşılmama duygusu yaşarım", resultId: "xavier" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "wednesday",
+        character: "Wednesday Addams",
+        description: "Sen karanlık, zeki ve gizemlisin! Yalnızlığı tercih edersin ve toplumsal normlara uymaktan hoşlanmazsın. Keskin zekan ve analitik düşünce tarzınla her zaman bir adım öndesin. Duygularını göstermekte zorlansan da, gerçek dostlarına sadıksın.",
+      },
+      {
+        id: "enid",
+        character: "Enid Sinclair",
+        description: "Sen neşeli, renkli ve enerjiksin! Dostlukları çok önemsersin ve herkesle iyi geçinmeye çalışırsın. Optimist bakış açın ve pozitif enerjinle çevreni aydınlatırsın. Kurt dönüşümün gibi, içindeki güçlü yanını keşfetmeye başlıyorsun.",
+      },
+      {
+        id: "bianca",
+        character: "Bianca Barclay",
+        description: "Sen güçlü, kararlı ve rekabetçisin! Liderlik vasıfların güçlü ve kontrolü elinde tutmayı seversin. Yeteneklerine güveniyorsun ancak zamanla zayıf yanlarını da gösterebiliyorsun. Ailen seni baskı altında tutsa da kendi yolunu çiziyorsun.",
+      },
+      {
+        id: "xavier",
+        character: "Xavier Thorpe",
+        description: "Sen sanatçı ruhlu, duygusal ve yeteneklisin! Resim yaparak duygularını ifade edersin ve sezgilerin güçlüdür. Bazen yanlış anlaşılsan da, iyi niyetlisin. Ailenin gölgesinden çıkmaya çalışıyorsun ve kendi kimliğini arıyorsun.",
+      },
+    ],
+  },
+  {
+    id: "squidgame",
+    title: "Squid Game'den Hangi Karaktersin?",
+    description: "Hayatta kalma oyunlarında hangi karakter sensin?",
+    icon: "Target",
+    emoji: "🟥",
+    questions: [
+      {
+        id: "q1",
+        text: "Hayatta kalmak için ne yaparsın?",
+        options: [
+          { id: "a1", text: "Stratejik ittifaklar kurarım", resultId: "gihun" },
+          { id: "a2", text: "Her şeyi risk eder, akıllı oynarım", resultId: "sangwoo" },
+          { id: "a3", text: "Güçlülere yakın dururum", resultId: "saebyeok" },
+          { id: "a4", text: "İnsanlara güvenmem, yalnız hareket ederim", resultId: "ilnam" },
+        ],
+      },
+      {
+        id: "q2",
+        text: "En önemli değerin nedir?",
+        options: [
+          { id: "b1", text: "İnsanlık ve merhamet", resultId: "gihun" },
+          { id: "b2", text: "Zeka ve strateji", resultId: "sangwoo" },
+          { id: "b3", text: "Aile ve hayatta kalma", resultId: "saebyeok" },
+          { id: "b4", text: "Oyun ve eğlence", resultId: "ilnam" },
+        ],
+      },
+      {
+        id: "q3",
+        text: "Bir krizde nasıl davranırsın?",
+        options: [
+          { id: "c1", text: "Başkalarına yardım etmeye çalışırım", resultId: "gihun" },
+          { id: "c2", text: "Mantıklı ve soğukkanlı kararlar alırım", resultId: "sangwoo" },
+          { id: "c3", text: "Hayatta kalmaya odaklanırım", resultId: "saebyeok" },
+          { id: "c4", text: "Durumu gözlemler, fırsat kollarım", resultId: "ilnam" },
+        ],
+      },
+      {
+        id: "q4",
+        text: "İnsanlara nasıl güvenirsin?",
+        options: [
+          { id: "d1", text: "Herkese ikinci şans veririm", resultId: "gihun" },
+          { id: "d2", text: "Sadece bana fayda sağlayanlara", resultId: "sangwoo" },
+          { id: "d3", text: "Çok az kişiye, temkinli davranırım", resultId: "saebyeok" },
+          { id: "d4", text: "Kimseye, herkes birer oyuncu", resultId: "ilnam" },
+        ],
+      },
+      {
+        id: "q5",
+        text: "Paranın önemi senin için ne?",
+        options: [
+          { id: "e1", text: "Sevdiklerimi kurtarmak için gerekli", resultId: "gihun" },
+          { id: "e2", text: "Özgürlük ve yeni başlangıç", resultId: "sangwoo" },
+          { id: "e3", text: "Ailem için hayat kurtarıcı", resultId: "saebyeok" },
+          { id: "e4", text: "Sadece bir oyunun parçası", resultId: "ilnam" },
+        ],
+      },
+      {
+        id: "q6",
+        text: "Hangi oyunda daha başarılı olurdun?",
+        options: [
+          { id: "f1", text: "Takım gerektiren oyunlar", resultId: "gihun" },
+          { id: "f2", text: "Zeka ve strateji oyunları", resultId: "sangwoo" },
+          { id: "f3", text: "Hız ve çeviklik oyunları", resultId: "saebyeok" },
+          { id: "f4", text: "Hepsinde, oyunları biliyorum", resultId: "ilnam" },
+        ],
+      },
+      {
+        id: "q7",
+        text: "Birini feda etmen gerekse ne yapardın?",
+        options: [
+          { id: "g1", text: "Kendimi feda ederdim", resultId: "gihun" },
+          { id: "g2", text: "En mantıklı seçeneği seçerdim", resultId: "sangwoo" },
+          { id: "g3", text: "Ailemi korumak için her şeyi yapardım", resultId: "saebyeok" },
+          { id: "g4", text: "İnsanların seçimlerini izlerdim", resultId: "ilnam" },
+        ],
+      },
+      {
+        id: "q8",
+        text: "Oyundan sonra ne yapardın?",
+        options: [
+          { id: "h1", text: "Adaleti sağlamaya çalışırdım", resultId: "gihun" },
+          { id: "h2", text: "Yeni bir hayat kurardım", resultId: "sangwoo" },
+          { id: "h3", text: "Ailemle yeniden buluşurdum", resultId: "saebyeok" },
+          { id: "h4", text: "Tekrar oyun izlerdim", resultId: "ilnam" },
+        ],
+      },
+      {
+        id: "q9",
+        text: "En büyük korkunun nedir?",
+        options: [
+          { id: "i1", text: "Sevdiklerimi kaybetmek", resultId: "gihun" },
+          { id: "i2", text: "Başarısız olmak", resultId: "sangwoo" },
+          { id: "i3", text: "Kardeşimi koruyamamak", resultId: "saebyeok" },
+          { id: "i4", text: "Sıkılmak", resultId: "ilnam" },
+        ],
+      },
+      {
+        id: "q10",
+        text: "Hayata bakış açın nasıl?",
+        options: [
+          { id: "j1", text: "İyimser, insanlık hala var", resultId: "gihun" },
+          { id: "j2", text: "Pragmatik, herkes kendine bakar", resultId: "sangwoo" },
+          { id: "j3", text: "Gerçekçi, hayatta kalmak zor", resultId: "saebyeok" },
+          { id: "j4", text: "Hayat bir oyun, eğlenmeliyiz", resultId: "ilnam" },
+        ],
+      },
+    ],
+    results: [
+      {
+        id: "gihun",
+        character: "Seong Gi-hun",
+        description: "Sen duygusal, merhametli ve iyimsersin! İnsanlığa olan inancını kaybetmezsin ve başkalarına yardım etmeye çalışırsın. Zayıf anların olsa da, vicdanın her zaman yol göstericin. Sonunda doğru olanı yapmaya çalışırsın.",
+      },
+      {
+        id: "sangwoo",
+        character: "Cho Sang-woo",
+        description: "Sen zeki, stratejik ve pragmatiksin! Hayatta kalmak için mantığını kullanırsın ve duygusal kararlar almaktan kaçınırsın. Başarı odaklısın ancak bu bazen ahlaki sınırlarını zorlar. Baskı altında zor kararlar alabilirsin.",
+      },
+      {
+        id: "saebyeok",
+        character: "Kang Sae-byeok",
+        description: "Sen güçlü, bağımsız ve kararlısın! Ailenin için her şeyi göze alırsın ve hayatta kalmak senin önceliğin. Başlangıçta mesafeli olsan da, güvendiğin insanlara sadıksın. Zor geçmişine rağmen umudunu kaybetmemişsin.",
+      },
+      {
+        id: "ilnam",
+        character: "Oh Il-nam",
+        description: "Sen gizemli, zeki ve oyuncu ruhlusun! Hayatı bir oyun gibi görürsün ve her durumda sakin kalırsın. İnsanları gözlemlemekten ve onların seçimlerini izlemekten keyif alırsın. Görünenden çok daha fazlasını biliyorsun.",
+      },
+    ],
+  },
+  ...additionalQuizzes,
 ];
