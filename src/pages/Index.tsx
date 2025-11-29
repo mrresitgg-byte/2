@@ -42,7 +42,12 @@ const handleSuggestion = async () => {
       <header className="border-b border-white/10 sticky top-0 bg-white/10 backdrop-blur-lg z-10 shadow-lg">
         <div className="container mx-auto px-4 py-5">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl md:text-3xl font-bold text-white">
+            <h1 className="text-2xl md:text-3xl font-bold text-white flex items-center gap-3">
+              <img
+                src="/Pink and Yellow Retro Playful Club Logo (1).png"
+                alt="Dizi Ruhun Logo"
+                className="h-10 md:h-12 w-auto"
+              />
               Dizi Ruhun
             </h1>
             <div className="text-sm text-white/80 bg-white/10 px-4 py-2 rounded-full backdrop-blur-sm">
